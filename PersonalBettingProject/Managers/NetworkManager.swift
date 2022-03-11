@@ -11,13 +11,13 @@ import PromiseKit
 class NetworkManager {
     static let shared = NetworkManager()
     
-    func getBettingSports() -> Promise<[BettingSports]> {
+    func getBettingSports() -> Promise<[BettingSport]> {
         let urlRequest = try! createURLRequest()
         
         return firstly {
             URLSession.shared.dataTask(.promise, with: urlRequest)
         }.compactMap {
-            return try JSONDecoder().decode([BettingSports].self, from: $0.data)
+            return try JSONDecoder().decode([BettingSport].self, from: $0.data)
         }
     }
 }

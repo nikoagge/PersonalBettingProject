@@ -24,9 +24,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-ss-v0a">
-                    <rect key="frame" x="13" y="13" width="60" height="68"/>
+                    <rect key="frame" x="13" y="17" width="60" height="60"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="60" id="0wO-9S-imV"/>
+                        <constraint firstAttribute="height" constant="60" id="cgk-JU-1P2"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                     <state key="normal" title="Button"/>
@@ -44,15 +45,16 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DON-Iq-b0J">
-                    <rect key="frame" x="166.5" y="33.5" width="81" height="27.5"/>
+                    <rect key="frame" x="166.5" y="13" width="81" height="68"/>
                     <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpF-vA-zlM">
-                    <rect key="frame" x="341" y="13" width="60" height="68"/>
+                    <rect key="frame" x="341" y="17" width="60" height="60"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="60" id="EGP-tV-vpy"/>
+                        <constraint firstAttribute="height" constant="60" id="WBL-zT-0sg"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                     <state key="normal" title="Button"/>
@@ -73,15 +75,14 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" red="0.08822505921125412" green="0.7026330828666687" blue="0.62009346485137939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="gBH-ss-v0a" secondAttribute="bottom" constant="13" id="5HT-Tc-K66"/>
-                <constraint firstItem="DON-Iq-b0J" firstAttribute="centerY" secondItem="gBH-ss-v0a" secondAttribute="centerY" id="8LQ-Ur-yvB"/>
+                <constraint firstItem="gBH-ss-v0a" firstAttribute="centerY" secondItem="DON-Iq-b0J" secondAttribute="centerY" id="2Lf-xa-XKe"/>
                 <constraint firstItem="gBH-ss-v0a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="13" id="9u4-50-tIM"/>
+                <constraint firstItem="xpF-vA-zlM" firstAttribute="centerY" secondItem="DON-Iq-b0J" secondAttribute="centerY" id="CDO-rV-KTJ"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xpF-vA-zlM" secondAttribute="trailing" constant="13" id="ETi-pD-TRS"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xpF-vA-zlM" secondAttribute="bottom" constant="13" id="Fec-ay-E4e"/>
                 <constraint firstItem="xpF-vA-zlM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DON-Iq-b0J" secondAttribute="trailing" constant="13" id="aV5-sT-euc"/>
                 <constraint firstItem="DON-Iq-b0J" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gBH-ss-v0a" secondAttribute="trailing" constant="13" id="dN0-ow-BKm"/>
-                <constraint firstItem="gBH-ss-v0a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="mFh-OS-abl"/>
-                <constraint firstItem="xpF-vA-zlM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="13" id="rIj-PM-0eD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="DON-Iq-b0J" secondAttribute="bottom" constant="13" id="tVm-n6-dTt"/>
+                <constraint firstItem="DON-Iq-b0J" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="13" id="wro-N8-6nr"/>
                 <constraint firstItem="DON-Iq-b0J" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="y4E-0g-yXI"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

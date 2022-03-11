@@ -10,6 +10,11 @@ import UIKit
 @available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    var inactivityTimer: Timer!
+    var initialNavigationController: UINavigationController!
+    var rootViewController: UIViewController!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return true
     }

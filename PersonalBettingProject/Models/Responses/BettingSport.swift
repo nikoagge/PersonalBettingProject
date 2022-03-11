@@ -1,5 +1,5 @@
 //
-//  BettingSports.swift
+//  BettingSport.swift
 //  PersonalBettingProject
 //
 //  Created by Nikos Aggelidis on 11/3/22.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BettingSports: Codable {
+struct BettingSport: Codable {
     var shortDescription: String
     var fullDescription: String
     var bettingMatches: [BettingMatch]
