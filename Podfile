@@ -6,9 +6,9 @@ target 'PersonalBettingProject' do
   use_frameworks!
 
   # Pods for PersonalBettingProject
-
+	pod "PromiseKit", "~> 6.8"
   target 'PersonalBettingProjectTests' do
-    pod "PromiseKit", "~> 6.8"
+    
     inherit! :search_paths
     # Pods for testing
   end

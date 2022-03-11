@@ -14,6 +14,7 @@
 		24C10118785187B6AAA9A679CBE8E545 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 463A6E49BB20292760D4A3D8387DE538 /* race.m */; };
 		273196B0B3608A30286680B9C02EEAF5 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E9FADEDDFBD2D8AA90A74F240B0A4 /* NSObject+Promise.swift */; };
 		27CBC2848BD67A27962F94ADFB6EE9F1 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 06326734FC261BA311C33AA1EB8FF2F8 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3113B96549F9A199EDF48A867D0B4B26 /* Pods-PersonalBettingProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7F7175897DFB7CEA8C6F2CEF0271E /* Pods-PersonalBettingProjectTests-dummy.m */; };
 		356CD819C1A9BB628BF2E2069D60E9E3 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E55E260A8D524AEF1BE876724468FB /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37107A9CADEE7783B6E9F32D2005B90B /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B5A942130D0507DB91B1CB727A37AF /* Promise.swift */; };
 		386CB0388B7BFA54D25DEAD77795EE6A /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386A1A831D8F43625E12F8D9DAEF8B8 /* Process+Promise.swift */; };
@@ -21,32 +22,32 @@
 		3C9B4A7F40A52FF015F77982686268B4 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B94D7A714C6936A8B04A954BA4B50F /* dispatch_promise.m */; };
 		3F13BADB5C20FB262EE3775E63BBE651 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA06ED7ED4A6B7B7D7F945663BE7E56D /* Box.swift */; };
 		42A7EF29E4ED3462980668F7D1A314F0 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 211A15F96237A163F4A23475B0FF82E6 /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44ADDA6218546C2B2F1C7B07BD836007 /* Pods-PersonalBettingProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFBA25BE6677029E0E9A62C9551DB7F /* Pods-PersonalBettingProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		483EB89DCAC11F3DE7417CB7C1347B30 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA36CCCA1098FEDA4560610EE0768B /* after.swift */; };
 		48AA519849266C20CF080A37887CFC4E /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AB9FCD618F1E6695917E52DEEF0A2E /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A649680EC213DCD0700A1A284EB25D5 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE9E135191A7C642DA4D1A10479F42 /* LogEvent.swift */; };
-		4F080632DD193E5028CB71527C2E1B51 /* Pods-PersonalBettingProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 164539293CF01BAE7F27B63391122B33 /* Pods-PersonalBettingProject-dummy.m */; };
 		506CB45161F5B9A01351C0AD278C4AC0 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D3FD4DFCA1EB51BFC1124AAF24A374 /* NSTask+AnyPromise.m */; };
-		54DD905DF0F51D6D8766A48A89EE0899 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0B386A5C26E6312BBAD510D02A4D74 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5850EA330F3EEA2D53061000DC65F432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		59A31D943BD01F500789EDA1165AF481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		5C51E4EF06F496800E089CB1EE79DAD2 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A63E70C514D5094D9BCACC025BAEBB3 /* PromiseKit-dummy.m */; };
-		5D012759D56568B961E91F7ADEBB510A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		67E8A31A804C01E0486F4C1395CCC606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		6F3BEBAC10EAF8A5905743446825E679 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 591128DCA338DF9914EAE3232E788771 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732B28B03918D36B68BD44C77D4BE887 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BC1AF155244E99B7C9E886AC7636E /* Error.swift */; };
-		744FE780E44563F175695E437EDF76B9 /* Pods-PersonalBettingProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E02304B199440A0D4105A762AB5A2D6A /* Pods-PersonalBettingProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEEB0A5BC3BA618E82591330503B4A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7F4EC5B61AB392C6B9F3A6D34CE21E1E /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57A6DDCFB881ABB03988149BB93657D /* when.swift */; };
 		8194B9F767F5E98AC6290833A2CFD773 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14AE0435C63377DDAB697BB37CA574 /* race.swift */; };
-		83A14AEE4CCF14B7BAF8424D4BCC51FF /* Pods-PersonalBettingProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5651569C8E958049A6A912B0E3301F6 /* Pods-PersonalBettingProjectTests-dummy.m */; };
 		83EA6B046238B37ED950FC865BB09333 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17977C54DE8289A20A02CBE2984B4372 /* hang.swift */; };
 		8409D5F7623FD7CBC3D928CA463A69E1 /* UIViewPropertyAnimator+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1198B9C5E6D3E4819D194F9F87808FA /* UIViewPropertyAnimator+Promise.swift */; };
 		8581F08BC311452D4C2E78935C50A840 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61925207B8AEF1B02BA3CD8D4AA4D5A /* NSURLSession+Promise.swift */; };
 		8919A8100FF0A5D62AB5D254FC884684 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFFCA44F5386BEA2A4BABDB1E7363E /* afterlife.swift */; };
 		899599790D1F3E0DE49CA1985E123C35 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = C37973B115D1CC7551DA00AE304573B5 /* UIView+AnyPromise.m */; };
+		8ED1584D4280094586974B0912F2E8A1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD19E6DE6B116994986131B76C271DA /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B3D5C165CC8A57F4446EECEB87238C /* Pods-PersonalBettingProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E1E451240088D181AB46EA11737D3 /* Pods-PersonalBettingProject-dummy.m */; };
+		96A9A5E1BD579C10A1B8BE659A9B922A /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC0FA8F9229112038BBE105B2BCECA5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */; };
 		9845537646543D7DC920C2AD80F8EF9E /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB99A94CF9D5A9C2289AEAE2AC2896C /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98BD0C2567194580042F4196CFD3C861 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C91731B40ED9234A90F1B8009BA58A8 /* Resolver.swift */; };
 		993A37B49B1F029A7230A422C32010CC /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D466BDA7EB5A5CAA1C026B62DF33E0D /* AnyPromise.swift */; };
 		9B97A0473C8550F7DEA98DE7AFE25561 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD40936A31AA3B0ADB990333F967A9A /* NSNotificationCenter+Promise.swift */; };
 		A81D0F710AFFC62E73BE7DA8858D621F /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D7AABE1A5AA63F36E392A7A652C57 /* join.m */; };
-		AF4161D851D80EB10D889B9263E0AB76 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AA3863BAD53016980214592B8E1F3 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */; };
 		B4370097668317938388822CCCB98FA7 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E71D3E8D8964699CBB1C86A5AF70 /* after.m */; };
 		B563F57CA44978152ED30C459DBC60AE /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED46A1312E7D43D12009FCDA1EBF59 /* NSNotificationCenter+AnyPromise.m */; };
 		B5BB95D002BE731F12AE07C27F14B375 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBA63C058E9399E7450FCD0E404311A /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,91 +62,101 @@
 		E85A27344F3B51082781DB3E11724E36 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = DC58026BA8EA8D43906166366A20497B /* hang.m */; };
 		EC1939718B30E2C224E107770EFA15E8 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C8B9DEDC073BD23B4AE704CE5A457C /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECA87472345DEE9383C99B94132989C8 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A4A946C70AD586FFD5BFC84A45D2F0 /* firstly.swift */; };
-		F606C434D112A608625ED9C1D76EBD88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F60AA58AB81EB99D8F5AC47D652F74FE /* Pods-PersonalBettingProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BF1528F529804019F928E27825E59C /* Pods-PersonalBettingProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F63C0FC83982E1034CB316A7EA644E6E /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959B329BA651852657F7320298B1C7E /* Deprecations.swift */; };
 		F9087DABB154530427BC4540C43E5853 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2C0F0349F88A22FE7AED320FB3344 /* Thenable.swift */; };
-		FC701AB87D4D5E27BD484E0DF2E1DEA2 /* Pods-PersonalBettingProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F52A82336D2DF35E05A3A874EF90903 /* Pods-PersonalBettingProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF3F808C427F7277B5EBDD62E3322B77 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A99D942FC861FB89EE6533EFAA5FE /* AnyPromise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32C29F151E493911B3A0553A124FC6E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
-			remoteInfo = PromiseKit;
-		};
-		69F0AD5A1A559468F3BF52AD12EB9BBA /* PBXContainerItemProxy */ = {
+		6991ACB3F374F1112E652BDD3EC415F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 258F38C2745AA6497C1CDE37DDF2D561;
 			remoteInfo = "Pods-PersonalBettingProject";
 		};
+		A44EBE96170ACB326ED5C40C939BF35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		CDFC256CDE2FF06463274324CDEFAF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06326734FC261BA311C33AA1EB8FF2F8 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		09BF1528F529804019F928E27825E59C /* Pods-PersonalBettingProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		0B22C42ED5DBA750C4B2252BE456130F /* Pods-PersonalBettingProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D77DFE349FE28153C45176699CF28AA /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
-		0E37F99D5A07110D74AA2A8863A116CB /* Pods-PersonalBettingProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1558E22C408F81B0101E949E3747CCDC /* Pods-PersonalBettingProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProjectTests.modulemap"; sourceTree = "<group>"; };
-		164539293CF01BAE7F27B63391122B33 /* Pods-PersonalBettingProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProject-dummy.m"; sourceTree = "<group>"; };
+		170E1E451240088D181AB46EA11737D3 /* Pods-PersonalBettingProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProject-dummy.m"; sourceTree = "<group>"; };
 		172E9FADEDDFBD2D8AA90A74F240B0A4 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
 		17977C54DE8289A20A02CBE2984B4372 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
-		1E021EAF13B4763ABB993EF271DF1A3D /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		184CC0CEC2C56A1845937C946E16C741 /* Pods-PersonalBettingProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FA2C0F0349F88A22FE7AED320FB3344 /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
+		20802FF41D3B2EBE0E1E442F167B7A96 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap"; sourceTree = "<group>"; };
 		211A15F96237A163F4A23475B0FF82E6 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
-		2A0B386A5C26E6312BBAD510D02A4D74 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h"; sourceTree = "<group>"; };
 		2BBA63C058E9399E7450FCD0E404311A /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
-		2C75D9548BF092E5AA4885944D70EADE /* Pods-PersonalBettingProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProject-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D466BDA7EB5A5CAA1C026B62DF33E0D /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
-		2F7E0341F47CE35DA54EF69B03AAE9F5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31D0ED85B84122E0082E5537DCC88409 /* Pods-PersonalBettingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject.release.xcconfig"; sourceTree = "<group>"; };
 		31D3FD4DFCA1EB51BFC1124AAF24A374 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
 		34AA36CCCA1098FEDA4560610EE0768B /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
-		3BD72DE19B5BCBC0B6EE9468B1588701 /* Pods-PersonalBettingProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD19E6DE6B116994986131B76C271DA /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h"; sourceTree = "<group>"; };
 		3D14AE0435C63377DDAB697BB37CA574 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
-		416AA3863BAD53016980214592B8E1F3 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		3F6F6FF8D0C98665FADCA59FD3E41132 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		41159FD63652C441A3A829B0B56000D2 /* Pods-PersonalBettingProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		463A6E49BB20292760D4A3D8387DE538 /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
-		48E095172EBE58527483D5954C1C3AB3 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D8E5512E038DACCF0DEABD1189F7CFF /* Pods-PersonalBettingProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51BB54F2C1EDED26D557CE0C8CA0A59E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		51E55E260A8D524AEF1BE876724468FB /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
 		52FF8A057B651437534429880B0A0E6A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
+		57620EC2F30758E03B1AA768333C496B /* Pods-PersonalBettingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject.debug.xcconfig"; sourceTree = "<group>"; };
 		591128DCA338DF9914EAE3232E788771 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		596B9A8AF930DF7E2EE43D2AC3FF8EE9 /* Pods-PersonalBettingProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-Info.plist"; sourceTree = "<group>"; };
 		5CEE9E135191A7C642DA4D1A10479F42 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
 		5DFC2829DE71B36FD61256182FBB3689 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
 		6231D0025BBAAF71291737A203EE69C5 /* Pods-PersonalBettingProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PersonalBettingProject"; path = Pods_PersonalBettingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6A91769ED42A54D1D0C2D5703F23B /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		6BFDFEE411E7EE5B2848D8602F12FDD6 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist"; sourceTree = "<group>"; };
 		6DB99A94CF9D5A9C2289AEAE2AC2896C /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
-		6F4F5C6B9143DEA5EDF7C238FA546F8C /* Pods-PersonalBettingProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProject.modulemap"; sourceTree = "<group>"; };
 		6FAFFCA44F5386BEA2A4BABDB1E7363E /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
 		731DED0A1854DCEBC1F3C3BCC02960D1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests"; path = Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B2FE2D3DDAC8577D27799BF1D7C221 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
-		7E320CFD71DAF9C40926A1471D78CEA8 /* Pods-PersonalBettingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		7F52A82336D2DF35E05A3A874EF90903 /* Pods-PersonalBettingProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProject-umbrella.h"; sourceTree = "<group>"; };
-		85F5AF4BEB027FC93C3E1A6BAB38CE16 /* Pods-PersonalBettingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject.release.xcconfig"; sourceTree = "<group>"; };
-		9131C1975B7A1FB719B1B1EE82E7871C /* Pods-PersonalBettingProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-Info.plist"; sourceTree = "<group>"; };
-		94702226FA1F9676EFB5B1366260C606 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		96D828627BB05D65C981D31FD1CF6F2E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap"; sourceTree = "<group>"; };
+		7D6847904A544BD800201867C8356132 /* Pods-PersonalBettingProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProject.modulemap"; sourceTree = "<group>"; };
+		7E7D54501E70478D1CB0F18F8631A0B1 /* Pods-PersonalBettingProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82A7F7175897DFB7CEA8C6F2CEF0271E /* Pods-PersonalBettingProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProjectTests-dummy.m"; sourceTree = "<group>"; };
+		8A6CAA226A91E132064272FAC551A77C /* Pods-PersonalBettingProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91942E91292091EE6B41AC08944D65BD /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97507749F8289E54061C73549964BCE1 /* PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromiseKit-Info.plist"; sourceTree = "<group>"; };
 		9A63E70C514D5094D9BCACC025BAEBB3 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		9BCD48D53C72D4E9459A527825BC3BF2 /* Pods-PersonalBettingProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonalBettingProject-frameworks.sh"; sourceTree = "<group>"; };
 		9C91731B40ED9234A90F1B8009BA58A8 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		9D59E001818D479CDC262D1FED27224A /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5424E3A33919A45D6173CE5B82C27C /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FDEA2DAE966FF14F9460176D55FD9B1 /* Pods-PersonalBettingProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProjectTests-Info.plist"; sourceTree = "<group>"; };
 		A0AB9FCD618F1E6695917E52DEEF0A2E /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 		A1ED46A1312E7D43D12009FCDA1EBF59 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
-		A5651569C8E958049A6A912B0E3301F6 /* Pods-PersonalBettingProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProjectTests-dummy.m"; sourceTree = "<group>"; };
 		AA06ED7ED4A6B7B7D7F945663BE7E56D /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		AB2442A786E8BD5859C06636E02BF04F /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC0FA8F9229112038BBE105B2BCECA5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m"; sourceTree = "<group>"; };
 		B57A6DDCFB881ABB03988149BB93657D /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		BCFBA25BE6677029E0E9A62C9551DB7F /* Pods-PersonalBettingProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProject-umbrella.h"; sourceTree = "<group>"; };
 		C01D7AABE1A5AA63F36E392A7A652C57 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
 		C1198B9C5E6D3E4819D194F9F87808FA /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
 		C1A11AA274A1EE7D774655B1BCFF0ABF /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
 		C37973B115D1CC7551DA00AE304573B5 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
 		C386A1A831D8F43625E12F8D9DAEF8B8 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		C5D1E8B1B50802F13ABAC3F497A73978 /* Pods-PersonalBettingProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonalBettingProjectTests.modulemap"; sourceTree = "<group>"; };
+		C722853BB01E1752C40BCB8B654C6AF8 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C73B6E99DB80497E25C21AED284C0DA5 /* Pods-PersonalBettingProjectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PersonalBettingProjectTests"; path = Pods_PersonalBettingProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C76ACEA7ACBB95471CB2C20A4BF1747C /* Pods-PersonalBettingProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProjectTests-Info.plist"; sourceTree = "<group>"; };
 		C8FCB83BB12E2FE8522817440A89A5BA /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
 		C959B329BA651852657F7320298B1C7E /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
 		CA48E17A7CB06C83AE15954A5EBA00A2 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
@@ -157,28 +168,25 @@
 		D61925207B8AEF1B02BA3CD8D4AA4D5A /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		D9B94D7A714C6936A8B04A954BA4B50F /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
 		DC58026BA8EA8D43906166366A20497B /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
-		E02304B199440A0D4105A762AB5A2D6A /* Pods-PersonalBettingProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalBettingProjectTests-umbrella.h"; sourceTree = "<group>"; };
 		E0C8B9DEDC073BD23B4AE704CE5A457C /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
-		E49FD8DC599ECA7EEA2A73A689FD792E /* Pods-PersonalBettingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E61FF459CD77242705A043DB6931E51D /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
 		E638D6873FCFB05806EC7CD54632792D /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
 		E9689298F0AC7F92182277DEA13A5D71 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB31B65956B9C77B909561C21A780B01 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
 		EBD40936A31AA3B0ADB990333F967A9A /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
-		EC40C3D0A9854354E13EE9FB002F124F /* Pods-PersonalBettingProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalBettingProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED3BC1AF155244E99B7C9E886AC7636E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		F73901092D8BF4B91AB1F80C79B521D1 /* Pods-PersonalBettingProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonalBettingProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		F211C8E3690F351A739DF945183E0C3B /* Pods-PersonalBettingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalBettingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8A4A946C70AD586FFD5BFC84A45D2F0 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
 		F9F8A459640DEEF925C431AAA45B9EF3 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C28F81A21339A91B4CF8F07E5813990 /* Frameworks */ = {
+		230817707B8F85EBD73C9CFA661A0074 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5850EA330F3EEA2D53061000DC65F432 /* Foundation.framework in Frameworks */,
+				59A31D943BD01F500789EDA1165AF481 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,19 +199,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C9BDD91F62F792A44BD466A8DEF0C0F /* Frameworks */ = {
+		C92AABBC9810190613DF419E948B1790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F606C434D112A608625ED9C1D76EBD88 /* Foundation.framework in Frameworks */,
+				7EEEB0A5BC3BA618E82591330503B4A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7ABB4300EA7274BE6B167FE409CC677 /* Frameworks */ = {
+		C9BD553F4F83B89AD817973BC57BBD5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D012759D56568B961E91F7ADEBB510A /* Foundation.framework in Frameworks */,
+				67E8A31A804C01E0486F4C1395CCC606 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,33 +285,6 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		489707DEE43DB15B64F0203EC61AD26B /* Pods-PersonalBettingProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				1558E22C408F81B0101E949E3747CCDC /* Pods-PersonalBettingProjectTests.modulemap */,
-				4D8E5512E038DACCF0DEABD1189F7CFF /* Pods-PersonalBettingProjectTests-acknowledgements.markdown */,
-				0E37F99D5A07110D74AA2A8863A116CB /* Pods-PersonalBettingProjectTests-acknowledgements.plist */,
-				A5651569C8E958049A6A912B0E3301F6 /* Pods-PersonalBettingProjectTests-dummy.m */,
-				F73901092D8BF4B91AB1F80C79B521D1 /* Pods-PersonalBettingProjectTests-frameworks.sh */,
-				C76ACEA7ACBB95471CB2C20A4BF1747C /* Pods-PersonalBettingProjectTests-Info.plist */,
-				E02304B199440A0D4105A762AB5A2D6A /* Pods-PersonalBettingProjectTests-umbrella.h */,
-				3BD72DE19B5BCBC0B6EE9468B1588701 /* Pods-PersonalBettingProjectTests.debug.xcconfig */,
-				7E320CFD71DAF9C40926A1471D78CEA8 /* Pods-PersonalBettingProjectTests.release.xcconfig */,
-			);
-			name = "Pods-PersonalBettingProjectTests";
-			path = "Target Support Files/Pods-PersonalBettingProjectTests";
-			sourceTree = "<group>";
-		};
-		537400426F04BF3DFDA17B3405A03975 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6AF646AB71551DA98B4BDED50A972C9 /* Pods-PersonalBettingProject */,
-				5A649C8DC9E284AF0B28C6B8B2D82312 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */,
-				489707DEE43DB15B64F0203EC61AD26B /* Pods-PersonalBettingProjectTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,20 +294,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5A649C8DC9E284AF0B28C6B8B2D82312 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */ = {
+		7FBDB22AF249C83522702FAF114C43DB /* Pods-PersonalBettingProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				96D828627BB05D65C981D31FD1CF6F2E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap */,
-				9E5424E3A33919A45D6173CE5B82C27C /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown */,
-				48E095172EBE58527483D5954C1C3AB3 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist */,
-				416AA3863BAD53016980214592B8E1F3 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */,
-				1E021EAF13B4763ABB993EF271DF1A3D /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist */,
-				2A0B386A5C26E6312BBAD510D02A4D74 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */,
-				94702226FA1F9676EFB5B1366260C606 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */,
-				2F7E0341F47CE35DA54EF69B03AAE9F5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */,
+				C5D1E8B1B50802F13ABAC3F497A73978 /* Pods-PersonalBettingProjectTests.modulemap */,
+				41159FD63652C441A3A829B0B56000D2 /* Pods-PersonalBettingProjectTests-acknowledgements.markdown */,
+				7E7D54501E70478D1CB0F18F8631A0B1 /* Pods-PersonalBettingProjectTests-acknowledgements.plist */,
+				82A7F7175897DFB7CEA8C6F2CEF0271E /* Pods-PersonalBettingProjectTests-dummy.m */,
+				9FDEA2DAE966FF14F9460176D55FD9B1 /* Pods-PersonalBettingProjectTests-Info.plist */,
+				09BF1528F529804019F928E27825E59C /* Pods-PersonalBettingProjectTests-umbrella.h */,
+				184CC0CEC2C56A1845937C946E16C741 /* Pods-PersonalBettingProjectTests.debug.xcconfig */,
+				F211C8E3690F351A739DF945183E0C3B /* Pods-PersonalBettingProjectTests.release.xcconfig */,
 			);
-			name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests";
-			path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests";
+			name = "Pods-PersonalBettingProjectTests";
+			path = "Target Support Files/Pods-PersonalBettingProjectTests";
 			sourceTree = "<group>";
 		};
 		82FE3C18B52F86227DB7105B7FD644BE /* Pods */ = {
@@ -371,6 +352,40 @@
 			name = CorePromise;
 			sourceTree = "<group>";
 		};
+		A154DD67FBB34FA15BA489ADD894D27E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20802FF41D3B2EBE0E1E442F167B7A96 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap */,
+				91942E91292091EE6B41AC08944D65BD /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.markdown */,
+				51BB54F2C1EDED26D557CE0C8CA0A59E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-acknowledgements.plist */,
+				AFC0FA8F9229112038BBE105B2BCECA5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m */,
+				3F6F6FF8D0C98665FADCA59FD3E41132 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-frameworks.sh */,
+				6BFDFEE411E7EE5B2848D8602F12FDD6 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist */,
+				3AD19E6DE6B116994986131B76C271DA /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h */,
+				AB2442A786E8BD5859C06636E02BF04F /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */,
+				C722853BB01E1752C40BCB8B654C6AF8 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests";
+			path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests";
+			sourceTree = "<group>";
+		};
+		C58C1219BA20C6EE1AD30E8F3DD68A1E /* Pods-PersonalBettingProject */ = {
+			isa = PBXGroup;
+			children = (
+				7D6847904A544BD800201867C8356132 /* Pods-PersonalBettingProject.modulemap */,
+				8A6CAA226A91E132064272FAC551A77C /* Pods-PersonalBettingProject-acknowledgements.markdown */,
+				0B22C42ED5DBA750C4B2252BE456130F /* Pods-PersonalBettingProject-acknowledgements.plist */,
+				170E1E451240088D181AB46EA11737D3 /* Pods-PersonalBettingProject-dummy.m */,
+				9BCD48D53C72D4E9459A527825BC3BF2 /* Pods-PersonalBettingProject-frameworks.sh */,
+				596B9A8AF930DF7E2EE43D2AC3FF8EE9 /* Pods-PersonalBettingProject-Info.plist */,
+				BCFBA25BE6677029E0E9A62C9551DB7F /* Pods-PersonalBettingProject-umbrella.h */,
+				57620EC2F30758E03B1AA768333C496B /* Pods-PersonalBettingProject.debug.xcconfig */,
+				31D0ED85B84122E0082E5537DCC88409 /* Pods-PersonalBettingProject.release.xcconfig */,
+			);
+			name = "Pods-PersonalBettingProject";
+			path = "Target Support Files/Pods-PersonalBettingProject";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -378,8 +393,18 @@
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				82FE3C18B52F86227DB7105B7FD644BE /* Pods */,
 				1E27A66EACF78E779076305D34043BBB /* Products */,
-				537400426F04BF3DFDA17B3405A03975 /* Targets Support Files */,
+				D544FF48783760859F438AFFB93AA61F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D544FF48783760859F438AFFB93AA61F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58C1219BA20C6EE1AD30E8F3DD68A1E /* Pods-PersonalBettingProject */,
+				A154DD67FBB34FA15BA489ADD894D27E /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */,
+				7FBDB22AF249C83522702FAF114C43DB /* Pods-PersonalBettingProjectTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		DB95DFB2FEA00D4534E3B77625D7082B /* PromiseKit */ = {
@@ -394,30 +419,14 @@
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
-		E6AF646AB71551DA98B4BDED50A972C9 /* Pods-PersonalBettingProject */ = {
-			isa = PBXGroup;
-			children = (
-				6F4F5C6B9143DEA5EDF7C238FA546F8C /* Pods-PersonalBettingProject.modulemap */,
-				2C75D9548BF092E5AA4885944D70EADE /* Pods-PersonalBettingProject-acknowledgements.markdown */,
-				EC40C3D0A9854354E13EE9FB002F124F /* Pods-PersonalBettingProject-acknowledgements.plist */,
-				164539293CF01BAE7F27B63391122B33 /* Pods-PersonalBettingProject-dummy.m */,
-				9131C1975B7A1FB719B1B1EE82E7871C /* Pods-PersonalBettingProject-Info.plist */,
-				7F52A82336D2DF35E05A3A874EF90903 /* Pods-PersonalBettingProject-umbrella.h */,
-				E49FD8DC599ECA7EEA2A73A689FD792E /* Pods-PersonalBettingProject.debug.xcconfig */,
-				85F5AF4BEB027FC93C3E1A6BAB38CE16 /* Pods-PersonalBettingProject.release.xcconfig */,
-			);
-			name = "Pods-PersonalBettingProject";
-			path = "Target Support Files/Pods-PersonalBettingProject";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A40CC96937D3A9E4842B337B88BD50E /* Headers */ = {
+		38E7BD03E75294F72227C0C7D09F3D3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744FE780E44563F175695E437EDF76B9 /* Pods-PersonalBettingProjectTests-umbrella.h in Headers */,
+				F60AA58AB81EB99D8F5AC47D652F74FE /* Pods-PersonalBettingProjectTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,19 +448,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D818AA0931DB94D024F71870DEF3C1C /* Headers */ = {
+		86B92401D4B58F86AC23261467146ADA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54DD905DF0F51D6D8766A48A89EE0899 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h in Headers */,
+				8ED1584D4280094586974B0912F2E8A1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8263D3822567576D2DFA1F48BD6B136C /* Headers */ = {
+		CE46848DEB41773A0D6DE1DE62F39690 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC701AB87D4D5E27BD484E0DF2E1DEA2 /* Pods-PersonalBettingProject-umbrella.h in Headers */,
+				44ADDA6218546C2B2F1C7B07BD836007 /* Pods-PersonalBettingProject-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,16 +469,17 @@
 /* Begin PBXNativeTarget section */
 		079D0F36200223CEA1F0610C04CE5268 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFFEA268AD1E5FAA869D71801A1A18BC /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject-PersonalBettingProjectUITests" */;
+			buildConfigurationList = 4D6867BD3A26AA5912180395BBA80E23 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject-PersonalBettingProjectUITests" */;
 			buildPhases = (
-				6D818AA0931DB94D024F71870DEF3C1C /* Headers */,
-				A6509885E176A4171591AD6CF808B74D /* Sources */,
-				4C28F81A21339A91B4CF8F07E5813990 /* Frameworks */,
-				8016754BA71B426E553E15206F695DD3 /* Resources */,
+				86B92401D4B58F86AC23261467146ADA /* Headers */,
+				2CBD41264E6C3F1E16AC2544FA57B4A6 /* Sources */,
+				C9BD553F4F83B89AD817973BC57BBD5E /* Frameworks */,
+				4F74D71226F3BE1F30226FE704D0F48C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				33FAB5D235B1933EE0D474EC03165642 /* PBXTargetDependency */,
 			);
 			name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests";
 			productName = Pods_PersonalBettingProject_PersonalBettingProjectUITests;
@@ -478,18 +488,17 @@
 		};
 		0C7C5F4F08F2CC899B17B988D42FCC14 /* Pods-PersonalBettingProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31072ACA739792F67EB7F53BFD8154C2 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProjectTests" */;
+			buildConfigurationList = E60F5CA070C4B728F46CCEB44F2A8883 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProjectTests" */;
 			buildPhases = (
-				1A40CC96937D3A9E4842B337B88BD50E /* Headers */,
-				DB72D32F9F57E6871A463D943C2E65BF /* Sources */,
-				B7ABB4300EA7274BE6B167FE409CC677 /* Frameworks */,
-				960A30A61BFD72CFCBEB6D1258CDD97B /* Resources */,
+				38E7BD03E75294F72227C0C7D09F3D3E /* Headers */,
+				3262C983CC6C52C646A76D5DB65B0343 /* Sources */,
+				C92AABBC9810190613DF419E948B1790 /* Frameworks */,
+				5E48191E9414BDF3CF93C03E72599644 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D59EA54DD578EB60682FE5D2318F851 /* PBXTargetDependency */,
-				F3B7AE136C6B05B297BC61A9604B9B53 /* PBXTargetDependency */,
+				D40406D640E62CEC8DC5BBC23FD7E2C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-PersonalBettingProjectTests";
 			productName = Pods_PersonalBettingProjectTests;
@@ -498,16 +507,17 @@
 		};
 		258F38C2745AA6497C1CDE37DDF2D561 /* Pods-PersonalBettingProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1861FC4F81BDD5AD04B409B91BFA2B3D /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject" */;
+			buildConfigurationList = 6EB0E4F2DCB09EF699E449828CECBF07 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject" */;
 			buildPhases = (
-				8263D3822567576D2DFA1F48BD6B136C /* Headers */,
-				D32A2AB55E19B2AC256E5515382F8F5D /* Sources */,
-				6C9BDD91F62F792A44BD466A8DEF0C0F /* Frameworks */,
-				1ACD59068B7B621802C7F4A441F80405 /* Resources */,
+				CE46848DEB41773A0D6DE1DE62F39690 /* Headers */,
+				DE8A35ABEFA2AAA31CF3832EDB152AFB /* Sources */,
+				230817707B8F85EBD73C9CFA661A0074 /* Frameworks */,
+				C484DAC11E8FA0FDD01E24606C542A71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C974156A223690E53BDB2149CC805A7 /* PBXTargetDependency */,
 			);
 			name = "Pods-PersonalBettingProject";
 			productName = Pods_PersonalBettingProject;
@@ -563,21 +573,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1ACD59068B7B621802C7F4A441F80405 /* Resources */ = {
+		4F74D71226F3BE1F30226FE704D0F48C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8016754BA71B426E553E15206F695DD3 /* Resources */ = {
+		5E48191E9414BDF3CF93C03E72599644 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		960A30A61BFD72CFCBEB6D1258CDD97B /* Resources */ = {
+		C484DAC11E8FA0FDD01E24606C542A71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -594,6 +604,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2CBD41264E6C3F1E16AC2544FA57B4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A9A5E1BD579C10A1B8BE659A9B922A /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3262C983CC6C52C646A76D5DB65B0343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3113B96549F9A199EDF48A867D0B4B26 /* Pods-PersonalBettingProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		489A4CAFE02BDB0955D99B1ECEE4C89C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -638,48 +664,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6509885E176A4171591AD6CF808B74D /* Sources */ = {
+		DE8A35ABEFA2AAA31CF3832EDB152AFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4161D851D80EB10D889B9263E0AB76 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D32A2AB55E19B2AC256E5515382F8F5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F080632DD193E5028CB71527C2E1B51 /* Pods-PersonalBettingProject-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB72D32F9F57E6871A463D943C2E65BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83A14AEE4CCF14B7BAF8424D4BCC51FF /* Pods-PersonalBettingProjectTests-dummy.m in Sources */,
+				95B3D5C165CC8A57F4446EECEB87238C /* Pods-PersonalBettingProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D59EA54DD578EB60682FE5D2318F851 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PersonalBettingProject";
-			target = 258F38C2745AA6497C1CDE37DDF2D561 /* Pods-PersonalBettingProject */;
-			targetProxy = 69F0AD5A1A559468F3BF52AD12EB9BBA /* PBXContainerItemProxy */;
-		};
-		F3B7AE136C6B05B297BC61A9604B9B53 /* PBXTargetDependency */ = {
+		33FAB5D235B1933EE0D474EC03165642 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
 			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 32C29F151E493911B3A0553A124FC6E8 /* PBXContainerItemProxy */;
+			targetProxy = A44EBE96170ACB326ED5C40C939BF35B /* PBXContainerItemProxy */;
+		};
+		8C974156A223690E53BDB2149CC805A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = CDFC256CDE2FF06463274324CDEFAF73 /* PBXContainerItemProxy */;
+		};
+		D40406D640E62CEC8DC5BBC23FD7E2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PersonalBettingProject";
+			target = 258F38C2745AA6497C1CDE37DDF2D561 /* Pods-PersonalBettingProject */;
+			targetProxy = 6991ACB3F374F1112E652BDD3EC415F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		198177434EA0C5F8084224C56640F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184CC0CEC2C56A1845937C946E16C741 /* Pods-PersonalBettingProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -746,9 +799,9 @@
 			};
 			name = Debug;
 		};
-		36874DE6A2D6813154F3DFF09DAD4AAA /* Release */ = {
+		3B2C7D64EB93DFABD728DBF50B66966E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85F5AF4BEB027FC93C3E1A6BAB38CE16 /* Pods-PersonalBettingProject.release.xcconfig */;
+			baseConfigurationReference = C722853BB01E1752C40BCB8B654C6AF8 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -760,7 +813,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -769,7 +822,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -783,43 +836,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		44A446B73A97479FE9C8C44AD9613EB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E49FD8DC599ECA7EEA2A73A689FD792E /* Pods-PersonalBettingProject.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -918,6 +934,44 @@
 			};
 			name = Release;
 		};
+		8014F4A2403B2C2BF09071DAC61D58B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D0ED85B84122E0082E5537DCC88409 /* Pods-PersonalBettingProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		86732952182378F58A3B10599CFBC71F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D23CDF48A64986FE08237CAF98EAFB82 /* PromiseKit.debug.xcconfig */;
@@ -952,9 +1006,9 @@
 			};
 			name = Debug;
 		};
-		94D2D4D7D7C429785E2B5493A8E82EDE /* Debug */ = {
+		C17479A85AA8305EAE29078BA9EEFD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94702226FA1F9676EFB5B1366260C606 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */;
+			baseConfigurationReference = AB2442A786E8BD5859C06636E02BF04F /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -989,9 +1043,9 @@
 			};
 			name = Debug;
 		};
-		B2F706EBA9852D7C92F6A7054DBCDDBC /* Release */ = {
+		CABC1AB8B812BBA26BB52FA12CCC3CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E320CFD71DAF9C40926A1471D78CEA8 /* Pods-PersonalBettingProjectTests.release.xcconfig */;
+			baseConfigurationReference = 57620EC2F30758E03B1AA768333C496B /* Pods-PersonalBettingProject.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1003,7 +1057,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1012,83 +1066,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B54A50BA5861A32CE060D42C36E56F66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F7E0341F47CE35DA54EF69B03AAE9F5 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD12F8C01C303ED4AB5F0DEDEF139D77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD72DE19B5BCBC0B6EE9468B1588701 /* Pods-PersonalBettingProjectTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProject/Pods-PersonalBettingProject.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1101,33 +1079,62 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D4FBDE4A06B3E138185B0D9242E4C5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F211C8E3690F351A739DF945183E0C3B /* Pods-PersonalBettingProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1861FC4F81BDD5AD04B409B91BFA2B3D /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				44A446B73A97479FE9C8C44AD9613EB1 /* Debug */,
-				36874DE6A2D6813154F3DFF09DAD4AAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		31072ACA739792F67EB7F53BFD8154C2 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD12F8C01C303ED4AB5F0DEDEF139D77 /* Debug */,
-				B2F706EBA9852D7C92F6A7054DBCDDBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6867BD3A26AA5912180395BBA80E23 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject-PersonalBettingProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17479A85AA8305EAE29078BA9EEFD6D /* Debug */,
+				3B2C7D64EB93DFABD728DBF50B66966E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1141,11 +1148,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFFEA268AD1E5FAA869D71801A1A18BC /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject-PersonalBettingProjectUITests" */ = {
+		6EB0E4F2DCB09EF699E449828CECBF07 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94D2D4D7D7C429785E2B5493A8E82EDE /* Debug */,
-				B54A50BA5861A32CE060D42C36E56F66 /* Release */,
+				CABC1AB8B812BBA26BB52FA12CCC3CA7 /* Debug */,
+				8014F4A2403B2C2BF09071DAC61D58B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60F5CA070C4B728F46CCEB44F2A8883 /* Build configuration list for PBXNativeTarget "Pods-PersonalBettingProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198177434EA0C5F8084224C56640F642 /* Debug */,
+				D4FBDE4A06B3E138185B0D9242E4C5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
