@@ -11,9 +11,9 @@ internal extension MainViewController {
     func getData() {
         _ = NetworkManager.shared.getBettingSports().done { bettingSports in
             self.bettingSports = bettingSports
-            
-            debugPrint(self.bettingSports)
-            
+            for _ in 0..<bettingSports.count {
+                self.bettingSportSectionIsExpanded.append(false)
+            }
         }.catch { error in
             debugPrint(error.localizedDescription)
         }

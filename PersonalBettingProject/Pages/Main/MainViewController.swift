@@ -12,6 +12,7 @@ class MainViewController: GenericViewController {
     @IBOutlet weak var bettingSportsTableView: UITableView!
     @IBOutlet weak var headerViewHeightLayoutConstraint: NSLayoutConstraint!
     var bettingSports = [BettingSport]()
+    var bettingSportSectionIsExpanded = [Bool]()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -54,6 +54,10 @@
 		17F7572427DB7CA9003337D9 /* ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7571F27DB7CA9003337D9 /* ScreenType.swift */; };
 		17F7572727DB7CA9003337D9 /* StoryboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572227DB7CA9003337D9 /* StoryboardType.swift */; };
 		17F7572927DB7DB9003337D9 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572827DB7DB9003337D9 /* NavigationItem.swift */; };
+		17F7572C27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572B27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift */; };
+		17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */; };
+		17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */; };
+		17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */; };
 		603CB13B1F132BFF3FF4B78B /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4C78D6ACB0F216DF54F11 /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework */; };
 		E43733838C825EF09D1EA600 /* Pods_PersonalBettingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D56E41ADEF14A8E700448F /* Pods_PersonalBettingProject.framework */; };
 /* End PBXBuildFile section */
@@ -126,6 +130,10 @@
 		17F7571F27DB7CA9003337D9 /* ScreenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenType.swift; sourceTree = "<group>"; };
 		17F7572227DB7CA9003337D9 /* StoryboardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardType.swift; sourceTree = "<group>"; };
 		17F7572827DB7DB9003337D9 /* NavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		17F7572B27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
 		17F91F645B1FB2EC220F6477 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4CDD5F8BA9A45F69C863F2C1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E6F9F05DF3657EE060DCF4C /* Pods-PersonalBettingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +198,8 @@
 				175D204B27D9E64900BCB00D /* Main.storyboard */,
 				175D204927D9E64900BCB00D /* MainViewController.swift */,
 				17F7571627DB77D2003337D9 /* MainViewController+InternalExtension.swift */,
+				17F7572B27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift */,
+				17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -219,6 +229,7 @@
 		175D204427D9E64900BCB00D /* PersonalBettingProject */ = {
 			isa = PBXGroup;
 			children = (
+				17F7572A27DB89D1003337D9 /* Custom Cells */,
 				17F756E427DB58A5003337D9 /* SharedViews */,
 				17F756DE27DB458C003337D9 /* Models */,
 				17F756D727DB4227003337D9 /* Enums */,
@@ -343,6 +354,15 @@
 				17F756EE27DB5B29003337D9 /* GenericViewController.swift */,
 			);
 			path = Generic;
+			sourceTree = "<group>";
+		};
+		17F7572A27DB89D1003337D9 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */,
+				17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */,
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 		2EB45ABFD2C40BB2E9496D41 /* Pods */ = {
@@ -471,6 +491,7 @@
 				175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */,
 				175D204D27D9E64900BCB00D /* Main.storyboard in Resources */,
 				17F756EB27DB5AA3003337D9 /* HeaderView.xib in Resources */,
+				17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,8 +646,10 @@
 				17F7572927DB7DB9003337D9 /* NavigationItem.swift in Sources */,
 				17F7570D27DB7085003337D9 /* EncodableExtension.swift in Sources */,
 				17F756DB27DB43EB003337D9 /* ServiceErrors.swift in Sources */,
+				17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */,
 				17F756EC27DB5AA3003337D9 /* HeaderView.swift in Sources */,
 				175D204827D9E64900BCB00D /* SceneDelegate.swift in Sources */,
+				17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */,
 				17F7570827DB7085003337D9 /* StoryboardType+Extension.swift in Sources */,
 				17CD321927DB3E5B004AADA1 /* Constants.swift in Sources */,
 				17F7571227DB7085003337D9 /* Constants+FormattersExtension.swift in Sources */,
@@ -634,6 +657,7 @@
 				17F756D527DB41E7003337D9 /* NetworkManager+InternalExtension.swift in Sources */,
 				17F7571427DB7085003337D9 /* ArrayExtension.swift in Sources */,
 				17F7572327DB7CA9003337D9 /* PageType.swift in Sources */,
+				17F7572C27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift in Sources */,
 				17F7570927DB7085003337D9 /* Coordinator+Extension.swift in Sources */,
 				17F7570C27DB7085003337D9 /* DataExtension.swift in Sources */,
 				17F756E027DB475C003337D9 /* BettingSport.swift in Sources */,
