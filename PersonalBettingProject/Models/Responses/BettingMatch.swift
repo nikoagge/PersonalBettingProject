@@ -13,6 +13,7 @@ struct BettingMatch: Codable {
     var bettingMatchCategory: String
     var awayTeam: String
     var bettingMatchDate: Int
+    var isFavoriteMatch = Bool()
     
     private enum CodingKeys: String, CodingKey {
         case homeTeam = "d"

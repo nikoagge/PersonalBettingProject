@@ -21,4 +21,5 @@ internal extension BadmintonSectionExpandedTableViewCell {
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(UINib(nibName: BettingMatchCollectionViewCell.nibName, bundle: nil), forCellWithReuseIdentifier: BettingMatchCollectionViewCell.identifier)
-    }}
+    }
+}
