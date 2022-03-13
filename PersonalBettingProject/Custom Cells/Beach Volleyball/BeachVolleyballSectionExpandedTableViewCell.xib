@@ -18,10 +18,41 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-lM-ynN" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-lM-ynN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach-volleyball" translatesAutoresizingMaskIntoConstraints="NO" id="3BB-0b-lcG">
+                                <rect key="frame" x="13" y="8" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="aUO-iS-BxH"/>
+                                    <constraint firstAttribute="height" constant="31" id="nmE-bD-ap7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEACH VOLLEYBALL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FQ-32-1H1">
+                                <rect key="frame" x="52" y="13" width="161.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="d1z-Qg-oDz">
+                                <rect key="frame" x="276" y="8" width="31" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="CGu-vw-dTC"/>
+                                    <constraint firstAttribute="height" constant="31" id="eC4-ok-nRX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="6FQ-32-1H1" firstAttribute="centerY" secondItem="3BB-0b-lcG" secondAttribute="centerY" id="AmT-rz-IGT"/>
+                            <constraint firstAttribute="trailing" secondItem="d1z-Qg-oDz" secondAttribute="trailing" constant="13" id="J6h-5f-Stw"/>
+                            <constraint firstItem="6FQ-32-1H1" firstAttribute="leading" secondItem="3BB-0b-lcG" secondAttribute="trailing" constant="8" id="L7C-xd-hUC"/>
+                            <constraint firstItem="d1z-Qg-oDz" firstAttribute="centerY" secondItem="6FQ-32-1H1" secondAttribute="centerY" id="W45-4V-Cx3"/>
+                            <constraint firstItem="d1z-Qg-oDz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6FQ-32-1H1" secondAttribute="trailing" constant="13" id="Xjb-Nd-AJH"/>
+                            <constraint firstItem="6FQ-32-1H1" firstAttribute="top" secondItem="0pm-lM-ynN" secondAttribute="top" constant="13" id="h9F-dR-eNO"/>
+                            <constraint firstAttribute="bottom" secondItem="6FQ-32-1H1" secondAttribute="bottom" constant="13" id="hkN-b4-TIx"/>
+                            <constraint firstItem="3BB-0b-lcG" firstAttribute="leading" secondItem="0pm-lM-ynN" secondAttribute="leading" constant="13" id="qbe-J4-XnJ"/>
                             <constraint firstAttribute="height" constant="47" id="smb-z5-X8G"/>
                         </constraints>
                     </view>
@@ -49,14 +80,18 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="Iv0-t9-4Z7" id="iUL-uK-Ccb"/>
-                <outlet property="customTableViewCellsHeaderView" destination="0pm-lM-ynN" id="aAg-31-vDv"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="beach-volleyball" width="96" height="96"/>
+        <image name="up-arrow" width="60" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

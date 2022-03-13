@@ -8,7 +8,6 @@
 import UIKit
 
 class BadmintonSectionExpandedTableViewCell: UITableViewCell {
-    @IBOutlet weak var customTableViewCellsHeaderView: CustomTableViewCellsHeaderView!
     @IBOutlet weak var collectionView: UICollectionView!
     
     static let identifier = "BadmintonSectionExpandedTableViewCell"
@@ -18,13 +17,5 @@ class BadmintonSectionExpandedTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        setupUI()
-    }
-
-    private func setupUI() {
-        customTableViewCellsHeaderView.bettingSportIconImageView.image = UIImage(named: ImageNames.badminton.rawValue)
-        customTableViewCellsHeaderView.bettingSportDescriptionLabel.text = "BADMINTON"
-        customTableViewCellsHeaderView.arrowIconImageView.image = UIImage(named: ImageNames.upArrow.rawValue)
     }
 }

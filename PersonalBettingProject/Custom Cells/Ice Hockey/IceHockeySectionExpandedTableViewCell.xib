@@ -18,11 +18,42 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dH-Qn-X0t" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dH-Qn-X0t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ice-hockey" translatesAutoresizingMaskIntoConstraints="NO" id="c7P-SN-TWx">
+                                <rect key="frame" x="13" y="8" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="5Ni-v3-Zdg"/>
+                                    <constraint firstAttribute="width" constant="31" id="Kvr-RZ-7X7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICE HOCKEY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gL-C7-ezy">
+                                <rect key="frame" x="52" y="13" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="8NB-ij-rOu">
+                                <rect key="frame" x="276" y="8" width="31" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="gmv-l4-Qeh"/>
+                                    <constraint firstAttribute="height" constant="31" id="gq1-Hd-HCU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="8NB-ij-rOu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9gL-C7-ezy" secondAttribute="trailing" constant="13" id="6yU-La-rMH"/>
                             <constraint firstAttribute="height" constant="47" id="Hjx-Xt-Mzm"/>
+                            <constraint firstAttribute="bottom" secondItem="9gL-C7-ezy" secondAttribute="bottom" constant="13" id="V4x-j2-Q0S"/>
+                            <constraint firstItem="8NB-ij-rOu" firstAttribute="centerY" secondItem="9gL-C7-ezy" secondAttribute="centerY" id="VU3-SW-Wc6"/>
+                            <constraint firstItem="9gL-C7-ezy" firstAttribute="top" secondItem="2dH-Qn-X0t" secondAttribute="top" constant="13" id="Z7a-98-Z40"/>
+                            <constraint firstItem="9gL-C7-ezy" firstAttribute="centerY" secondItem="c7P-SN-TWx" secondAttribute="centerY" id="ZII-oP-Tgh"/>
+                            <constraint firstItem="9gL-C7-ezy" firstAttribute="leading" secondItem="c7P-SN-TWx" secondAttribute="trailing" constant="8" id="qE6-DY-eb6"/>
+                            <constraint firstAttribute="trailing" secondItem="8NB-ij-rOu" secondAttribute="trailing" constant="13" id="vyy-6X-v8M"/>
+                            <constraint firstItem="c7P-SN-TWx" firstAttribute="leading" secondItem="2dH-Qn-X0t" secondAttribute="leading" constant="13" id="yA6-eA-kRq"/>
                         </constraints>
                     </view>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5VV-5y-olx">
@@ -49,14 +80,18 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="5VV-5y-olx" id="gI6-H9-QmS"/>
-                <outlet property="customTableViewCellsHeaderView" destination="2dH-Qn-X0t" id="26d-s2-LE1"/>
             </connections>
             <point key="canvasLocation" x="133" y="75"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="ice-hockey" width="96" height="96"/>
+        <image name="up-arrow" width="60" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

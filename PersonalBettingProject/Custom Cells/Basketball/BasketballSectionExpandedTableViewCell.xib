@@ -18,11 +18,42 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-Nh-jXm" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOc-Nh-jXm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball" translatesAutoresizingMaskIntoConstraints="NO" id="iwo-wY-3Bj">
+                                <rect key="frame" x="13" y="8" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="GCK-IW-HjD"/>
+                                    <constraint firstAttribute="height" constant="31" id="elr-y0-YSB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BASKETBALL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzP-12-qdD">
+                                <rect key="frame" x="52" y="13" width="103.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="6zL-ri-jxR">
+                                <rect key="frame" x="276" y="8" width="31" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="D3B-Nf-l4M"/>
+                                    <constraint firstAttribute="width" constant="31" id="XEC-Hj-Obf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="iwo-wY-3Bj" firstAttribute="leading" secondItem="jOc-Nh-jXm" secondAttribute="leading" constant="13" id="0HQ-ip-jTe"/>
+                            <constraint firstItem="HzP-12-qdD" firstAttribute="leading" secondItem="iwo-wY-3Bj" secondAttribute="trailing" constant="8" id="5Fs-pR-tWr"/>
+                            <constraint firstItem="HzP-12-qdD" firstAttribute="centerY" secondItem="iwo-wY-3Bj" secondAttribute="centerY" id="6aS-Vz-jv5"/>
+                            <constraint firstAttribute="trailing" secondItem="6zL-ri-jxR" secondAttribute="trailing" constant="13" id="9gm-7M-Hox"/>
+                            <constraint firstItem="6zL-ri-jxR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HzP-12-qdD" secondAttribute="trailing" constant="13" id="CGc-a5-Buu"/>
+                            <constraint firstItem="6zL-ri-jxR" firstAttribute="centerY" secondItem="HzP-12-qdD" secondAttribute="centerY" id="JVU-tN-0lR"/>
+                            <constraint firstItem="HzP-12-qdD" firstAttribute="top" secondItem="jOc-Nh-jXm" secondAttribute="top" constant="13" id="eAb-uc-0Kt"/>
                             <constraint firstAttribute="height" constant="47" id="j0e-rK-F3u"/>
+                            <constraint firstAttribute="bottom" secondItem="HzP-12-qdD" secondAttribute="bottom" constant="13" id="pB1-5V-eyq"/>
                         </constraints>
                     </view>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="SRx-4j-g0d">
@@ -49,14 +80,18 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="SRx-4j-g0d" id="xAR-El-ItL"/>
-                <outlet property="customTableViewCellsHeaderView" destination="jOc-Nh-jXm" id="lj3-C4-9En"/>
             </connections>
             <point key="canvasLocation" x="133" y="75"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="basketball" width="96" height="96"/>
+        <image name="down-arrow" width="60" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

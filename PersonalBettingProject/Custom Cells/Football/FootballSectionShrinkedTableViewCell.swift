@@ -7,21 +7,11 @@
 
 import UIKit
 
-class FootballSectionShrinkedTableViewCell: UITableViewCell {
-    @IBOutlet weak var customTableViewCellsHeaderView: CustomTableViewCellsHeaderView!
-    
+class FootballSectionShrinkedTableViewCell: UITableViewCell {    
     static let identifier = "FootballSectionShrinkedTableViewCell"
     static let nibName = "FootballSectionShrinkedTableViewCell"
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        setupUI()
-    }
-    
-    private func setupUI() {
-        customTableViewCellsHeaderView.bettingSportIconImageView.image = UIImage(named: ImageNames.football.rawValue)
-        customTableViewCellsHeaderView.bettingSportDescriptionLabel.text = "FOOTBALL"
-        customTableViewCellsHeaderView.arrowIconImageView.image = UIImage(named: ImageNames.downArrow.rawValue)
     }
 }

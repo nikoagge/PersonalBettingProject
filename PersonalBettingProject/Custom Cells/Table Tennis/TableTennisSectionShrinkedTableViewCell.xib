@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,15 +14,53 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="KGk-i7-Jjw" customClass="TableTennisSectionShrinkedTableViewCell" customModule="PersonalBettingProject" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="table-tennis" translatesAutoresizingMaskIntoConstraints="NO" id="IAe-Si-uWV">
+                        <rect key="frame" x="13" y="8" width="31" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="RZt-ll-n4V"/>
+                            <constraint firstAttribute="width" constant="31" id="Zb1-30-NSc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TABLE TENNIS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvX-un-2uP">
+                        <rect key="frame" x="52" y="13" width="113" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="m97-pv-55X">
+                        <rect key="frame" x="276" y="8" width="31" height="31"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="Abi-hG-k6y"/>
+                            <constraint firstAttribute="height" constant="31" id="Fct-1C-3ff"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                <constraints>
+                    <constraint firstItem="HvX-un-2uP" firstAttribute="centerY" secondItem="IAe-Si-uWV" secondAttribute="centerY" id="0OL-hc-Qty"/>
+                    <constraint firstItem="m97-pv-55X" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HvX-un-2uP" secondAttribute="trailing" constant="13" id="A5H-aX-JT1"/>
+                    <constraint firstItem="HvX-un-2uP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="QYc-Eq-bRj"/>
+                    <constraint firstItem="HvX-un-2uP" firstAttribute="leading" secondItem="IAe-Si-uWV" secondAttribute="trailing" constant="8" id="bx3-SH-bs5"/>
+                    <constraint firstItem="IAe-Si-uWV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="dhN-wF-ERD"/>
+                    <constraint firstAttribute="bottom" secondItem="HvX-un-2uP" secondAttribute="bottom" constant="13" id="duq-k1-aas"/>
+                    <constraint firstAttribute="trailing" secondItem="m97-pv-55X" secondAttribute="trailing" constant="13" id="fVi-UD-eZX"/>
+                    <constraint firstItem="m97-pv-55X" firstAttribute="centerY" secondItem="HvX-un-2uP" secondAttribute="centerY" id="jVd-nA-WBd"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <connections>
-                <outlet property="customTableViewCellsHeaderView" destination="H2p-sc-9uM" id="Igv-jM-mm5"/>
-            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="76.004464285714278"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="down-arrow" width="60" height="60"/>
+        <image name="table-tennis" width="96" height="96"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

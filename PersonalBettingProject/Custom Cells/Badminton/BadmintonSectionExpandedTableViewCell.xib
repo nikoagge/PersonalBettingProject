@@ -18,11 +18,42 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9g-nU-UD9" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9g-nU-UD9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badminton" translatesAutoresizingMaskIntoConstraints="NO" id="tXJ-2b-GvJ">
+                                <rect key="frame" x="13" y="8" width="31" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Rdc-AH-OD8"/>
+                                    <constraint firstAttribute="width" constant="31" id="xBi-tj-EyK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BADMINTON" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBI-QM-9EN">
+                                <rect key="frame" x="52" y="13" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Ydx-yg-8Nz">
+                                <rect key="frame" x="276" y="8" width="31" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Pnt-2I-cp8"/>
+                                    <constraint firstAttribute="width" constant="31" id="wCu-8z-mqM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="rBI-QM-9EN" firstAttribute="leading" secondItem="tXJ-2b-GvJ" secondAttribute="trailing" constant="8" id="6Xs-h9-8Th"/>
+                            <constraint firstAttribute="bottom" secondItem="rBI-QM-9EN" secondAttribute="bottom" constant="13" id="AU7-A4-bIU"/>
+                            <constraint firstItem="Ydx-yg-8Nz" firstAttribute="centerY" secondItem="rBI-QM-9EN" secondAttribute="centerY" id="BxE-Rc-jTn"/>
+                            <constraint firstAttribute="trailing" secondItem="Ydx-yg-8Nz" secondAttribute="trailing" constant="13" id="HAo-md-nmU"/>
+                            <constraint firstItem="tXJ-2b-GvJ" firstAttribute="leading" secondItem="V9g-nU-UD9" secondAttribute="leading" constant="13" id="N3b-I6-YXT"/>
+                            <constraint firstItem="Ydx-yg-8Nz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rBI-QM-9EN" secondAttribute="trailing" constant="13" id="c4a-b3-LR0"/>
+                            <constraint firstItem="rBI-QM-9EN" firstAttribute="top" secondItem="V9g-nU-UD9" secondAttribute="top" constant="13" id="rf8-Vs-IwX"/>
                             <constraint firstAttribute="height" constant="47" id="sOx-Y5-Bf0"/>
+                            <constraint firstItem="rBI-QM-9EN" firstAttribute="centerY" secondItem="tXJ-2b-GvJ" secondAttribute="centerY" id="zkg-4T-gbq"/>
                         </constraints>
                     </view>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VXG-3b-791">
@@ -49,14 +80,18 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="VXG-3b-791" id="71G-RR-BAS"/>
-                <outlet property="customTableViewCellsHeaderView" destination="V9g-nU-UD9" id="FaA-Tu-qNd"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="139.28571428571428"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="badminton" width="96" height="96"/>
+        <image name="up-arrow" width="60" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

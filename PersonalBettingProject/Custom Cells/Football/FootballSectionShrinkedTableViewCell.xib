@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,15 +14,53 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="KGk-i7-Jjw" customClass="FootballSectionShrinkedTableViewCell" customModule="PersonalBettingProject" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soccer" translatesAutoresizingMaskIntoConstraints="NO" id="q2E-HE-oXg">
+                        <rect key="frame" x="13" y="8" width="31" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="g1j-Bp-LWw"/>
+                            <constraint firstAttribute="height" constant="31" id="l14-by-i0m"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOOTBALL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va9-wD-2CM">
+                        <rect key="frame" x="52" y="13" width="85" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="jI5-l9-LFM">
+                        <rect key="frame" x="276" y="8" width="31" height="31"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="9XA-Xz-3mD"/>
+                            <constraint firstAttribute="height" constant="31" id="cCa-HE-O6l"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="va9-wD-2CM" secondAttribute="bottom" constant="13" id="Aib-RD-vRo"/>
+                    <constraint firstItem="jI5-l9-LFM" firstAttribute="centerY" secondItem="va9-wD-2CM" secondAttribute="centerY" id="DMw-aY-SN8"/>
+                    <constraint firstItem="va9-wD-2CM" firstAttribute="leading" secondItem="q2E-HE-oXg" secondAttribute="trailing" constant="8" id="Tlo-9k-GOq"/>
+                    <constraint firstAttribute="trailing" secondItem="jI5-l9-LFM" secondAttribute="trailing" constant="13" id="U4j-eu-3EQ"/>
+                    <constraint firstItem="va9-wD-2CM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="bX3-D8-B9C"/>
+                    <constraint firstItem="va9-wD-2CM" firstAttribute="centerY" secondItem="q2E-HE-oXg" secondAttribute="centerY" id="czj-8q-jVk"/>
+                    <constraint firstItem="q2E-HE-oXg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="lCr-pj-IBm"/>
+                    <constraint firstItem="jI5-l9-LFM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="va9-wD-2CM" secondAttribute="trailing" constant="13" id="rJT-YI-UcA"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <connections>
-                <outlet property="customTableViewCellsHeaderView" destination="H2p-sc-9uM" id="K4r-Ky-2s7"/>
-            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="100.78125"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="down-arrow" width="60" height="60"/>
+        <image name="soccer" width="96" height="96"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

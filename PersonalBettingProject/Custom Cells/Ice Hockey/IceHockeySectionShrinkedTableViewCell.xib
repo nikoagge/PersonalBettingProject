@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,15 +14,53 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="IceHockeySectionShrinkedTableViewCell" customModule="PersonalBettingProject" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="CustomTableViewCellsHeaderView" customModule="PersonalBettingProject" customModuleProvider="target">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ice-hockey" translatesAutoresizingMaskIntoConstraints="NO" id="hci-ls-LAK">
+                        <rect key="frame" x="13" y="8" width="31" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="aOF-gf-QPl"/>
+                            <constraint firstAttribute="width" constant="31" id="sf6-ej-UfK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICE HOCKEY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnR-44-thX">
+                        <rect key="frame" x="52" y="13" width="98" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Juu-59-Z9F">
+                        <rect key="frame" x="276" y="8" width="31" height="31"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="D69-ye-t0k"/>
+                            <constraint firstAttribute="height" constant="31" id="IiV-i4-wrK"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                <constraints>
+                    <constraint firstItem="Juu-59-Z9F" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EnR-44-thX" secondAttribute="trailing" constant="13" id="8b3-ea-ndA"/>
+                    <constraint firstItem="hci-ls-LAK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="LN7-w7-mOd"/>
+                    <constraint firstItem="EnR-44-thX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="Tze-QO-Ut1"/>
+                    <constraint firstAttribute="trailing" secondItem="Juu-59-Z9F" secondAttribute="trailing" constant="13" id="WbB-vb-UWl"/>
+                    <constraint firstItem="EnR-44-thX" firstAttribute="leading" secondItem="hci-ls-LAK" secondAttribute="trailing" constant="8" id="b9x-iF-aa4"/>
+                    <constraint firstAttribute="bottom" secondItem="EnR-44-thX" secondAttribute="bottom" constant="13" id="e2r-Bu-Tc3"/>
+                    <constraint firstItem="EnR-44-thX" firstAttribute="centerY" secondItem="Juu-59-Z9F" secondAttribute="centerY" id="fma-g6-haT"/>
+                    <constraint firstItem="EnR-44-thX" firstAttribute="centerY" secondItem="hci-ls-LAK" secondAttribute="centerY" id="wIN-pr-Kbs"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <connections>
-                <outlet property="customTableViewCellsHeaderView" destination="H2p-sc-9uM" id="56h-Zp-I4U"/>
-            </connections>
             <point key="canvasLocation" x="139" y="75"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="down-arrow" width="60" height="60"/>
+        <image name="ice-hockey" width="96" height="96"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

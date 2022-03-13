@@ -8,4 +8,8 @@
 import UIKit
 
 extension MainViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        bettingSportSectionIsExpanded[indexPath.section] = !bettingSportSectionIsExpanded[indexPath.section]
+        bettingSportsTableView.reloadRows(at: [IndexPath(item: indexPath.row, section: indexPath.section)], with: .none)
+    }
 }

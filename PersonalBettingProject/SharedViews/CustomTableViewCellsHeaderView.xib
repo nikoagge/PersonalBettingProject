@@ -33,7 +33,7 @@
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sah-JE-aAZ">
-                            <rect key="frame" x="52" y="13" width="42" height="21"/>
+                            <rect key="frame" x="52" y="13" width="305" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -52,7 +52,7 @@
                         <constraint firstItem="svY-H2-SCJ" firstAttribute="centerY" secondItem="sah-JE-aAZ" secondAttribute="centerY" id="Uz0-us-sEH"/>
                         <constraint firstItem="sah-JE-aAZ" firstAttribute="leading" secondItem="IFP-qe-m78" secondAttribute="trailing" constant="8" id="Xbg-P2-F76"/>
                         <constraint firstItem="sah-JE-aAZ" firstAttribute="centerY" secondItem="IFP-qe-m78" secondAttribute="centerY" id="dPC-VU-xrB"/>
-                        <constraint firstItem="svY-H2-SCJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sah-JE-aAZ" secondAttribute="trailing" constant="13" id="hua-je-xZz"/>
+                        <constraint firstItem="svY-H2-SCJ" firstAttribute="leading" secondItem="sah-JE-aAZ" secondAttribute="trailing" constant="13" id="hua-je-xZz"/>
                         <constraint firstAttribute="trailing" secondItem="svY-H2-SCJ" secondAttribute="trailing" constant="13" id="qK6-R7-fny"/>
                         <constraint firstItem="IFP-qe-m78" firstAttribute="leading" secondItem="kdM-sU-s3N" secondAttribute="leading" constant="13" id="qkF-OD-Jnj"/>
                         <constraint firstItem="sah-JE-aAZ" firstAttribute="top" secondItem="kdM-sU-s3N" secondAttribute="top" constant="13" id="vbJ-sP-7ME"/>
