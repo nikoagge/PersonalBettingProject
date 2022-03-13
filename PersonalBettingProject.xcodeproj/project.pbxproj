@@ -113,8 +113,6 @@
 		17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */; };
 		17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */; };
 		17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */; };
-		17F7573E27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */; };
-		17F7574027DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */; };
 		603CB13B1F132BFF3FF4B78B /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4C78D6ACB0F216DF54F11 /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework */; };
 		E43733838C825EF09D1EA600 /* Pods_PersonalBettingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D56E41ADEF14A8E700448F /* Pods_PersonalBettingProject.framework */; };
 /* End PBXBuildFile section */
@@ -246,8 +244,6 @@
 		17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
 		17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
-		17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellsHeaderView.swift; sourceTree = "<group>"; };
-		17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCellsHeaderView.xib; sourceTree = "<group>"; };
 		17F91F645B1FB2EC220F6477 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4CDD5F8BA9A45F69C863F2C1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E6F9F05DF3657EE060DCF4C /* Pods-PersonalBettingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -459,8 +455,6 @@
 			children = (
 				17F756EA27DB5AA3003337D9 /* HeaderView.swift */,
 				17F756E927DB5AA3003337D9 /* HeaderView.xib */,
-				17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */,
-				17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */,
 			);
 			path = SharedViews;
 			sourceTree = "<group>";
@@ -733,7 +727,6 @@
 				175D205227D9E64A00BCB00D /* LaunchScreen.storyboard in Resources */,
 				175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */,
 				174CBCD927DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib in Resources */,
-				17F7574027DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib in Resources */,
 				174CBD1727DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib in Resources */,
 				174CBCF127DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib in Resources */,
 				174CBCC127DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib in Resources */,
@@ -885,7 +878,6 @@
 				174D5F1E27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				17F7570A27DB7085003337D9 /* NumberFormatterExtension.swift in Sources */,
 				174CBCC327DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
-				17F7573E27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift in Sources */,
 				174D5F2027DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				174CBCD127DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7571327DB7085003337D9 /* UIViewControllerExtension.swift in Sources */,
