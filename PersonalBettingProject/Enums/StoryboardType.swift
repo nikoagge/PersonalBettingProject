@@ -9,4 +9,6 @@ import Foundation
 
 enum StoryboardType: String {
     case main = "Main"
+    case profile = "Profile"
+    case settings = "Settings"
 }

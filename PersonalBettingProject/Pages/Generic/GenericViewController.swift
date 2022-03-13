@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GenericViewController: UIViewController {
+class GenericViewController: UIViewController, Coordinator {
     override func viewDidLoad() {
         super.viewDidLoad()
         

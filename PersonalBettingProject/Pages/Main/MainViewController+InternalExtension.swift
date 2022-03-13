@@ -26,6 +26,7 @@ internal extension MainViewController {
         }
         
         bettingSportsTableViewConfiguration()
+        headerView.delegate = self
     }
     
     func bettingSportsTableViewConfiguration() {

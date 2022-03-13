@@ -24,10 +24,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-ss-v0a">
-                    <rect key="frame" x="13" y="17" width="60" height="60"/>
+                    <rect key="frame" x="13" y="7" width="80" height="80"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="60" id="0wO-9S-imV"/>
-                        <constraint firstAttribute="height" constant="60" id="cgk-JU-1P2"/>
+                        <constraint firstAttribute="width" constant="80" id="0wO-9S-imV"/>
+                        <constraint firstAttribute="height" constant="80" id="cgk-JU-1P2"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                     <state key="normal" title="Button"/>
@@ -51,10 +51,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpF-vA-zlM">
-                    <rect key="frame" x="341" y="17" width="60" height="60"/>
+                    <rect key="frame" x="321" y="7" width="80" height="80"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="60" id="EGP-tV-vpy"/>
-                        <constraint firstAttribute="height" constant="60" id="WBL-zT-0sg"/>
+                        <constraint firstAttribute="width" constant="80" id="EGP-tV-vpy"/>
+                        <constraint firstAttribute="height" constant="80" id="WBL-zT-0sg"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                     <state key="normal" title="Button"/>

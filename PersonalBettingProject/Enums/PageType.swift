@@ -11,4 +11,6 @@ enum PageType {
     case viewControllers(viewControllers: [UIViewController])
     case viewController(viewController: UIViewController)
     case mainViewController
+    case profileViewController
+    case settingsViewController
 }

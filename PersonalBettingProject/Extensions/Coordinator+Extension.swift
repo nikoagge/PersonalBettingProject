@@ -21,6 +21,12 @@ extension Coordinator {
             
         case .mainViewController:
             controllerToNavigate = StoryboardType.main.getController(MainViewController.self)
+            
+        case .profileViewController:
+            controllerToNavigate = StoryboardType.profile.getController(ProfileViewController.self)
+            
+        case .settingsViewController:
+            controllerToNavigate = StoryboardType.settings.getController(SettingsViewController.self)
         }
         
         if let controllerToNavigate = controllerToNavigate {

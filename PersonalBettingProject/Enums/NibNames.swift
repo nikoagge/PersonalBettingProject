@@ -9,5 +9,4 @@ import Foundation
 
 enum NibNames: String {
     case headerView = "HeaderView"
-    case customTableViewCellsHeaderView = "CustomTableViewCellsHeaderView"
 }

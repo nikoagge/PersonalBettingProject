@@ -76,6 +76,11 @@
 		175D206927D9E64B00BCB00D /* PersonalBettingProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D206827D9E64B00BCB00D /* PersonalBettingProjectUITestsLaunchTests.swift */; };
 		17CD321927DB3E5B004AADA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD321827DB3E5B004AADA1 /* Constants.swift */; };
 		17CD321B27DB3F92004AADA1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD321A27DB3F92004AADA1 /* NetworkManager.swift */; };
+		17D2019D27DE5AE000A340AB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2019C27DE5AE000A340AB /* ProfileViewController.swift */; };
+		17D2019F27DE5B3300A340AB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D2019E27DE5B3300A340AB /* Profile.storyboard */; };
+		17D201A227DE5BA200A340AB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D201A127DE5BA200A340AB /* Settings.storyboard */; };
+		17D201A427DE5BB200A340AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D201A327DE5BB200A340AB /* SettingsViewController.swift */; };
+		17D201A627DE5C9800A340AB /* MainViewController+HeaderViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D201A527DE5C9800A340AB /* MainViewController+HeaderViewDelegate.swift */; };
 		17F756D527DB41E7003337D9 /* NetworkManager+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F756D427DB41E7003337D9 /* NetworkManager+InternalExtension.swift */; };
 		17F756D927DB4234003337D9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F756D827DB4234003337D9 /* HTTPMethod.swift */; };
 		17F756DB27DB43EB003337D9 /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F756DA27DB43EB003337D9 /* ServiceErrors.swift */; };
@@ -209,6 +214,11 @@
 		175D206827D9E64B00BCB00D /* PersonalBettingProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBettingProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		17CD321827DB3E5B004AADA1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		17CD321A27DB3F92004AADA1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		17D2019C27DE5AE000A340AB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		17D2019E27DE5B3300A340AB /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		17D201A127DE5BA200A340AB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		17D201A327DE5BB200A340AB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		17D201A527DE5C9800A340AB /* MainViewController+HeaderViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+HeaderViewDelegate.swift"; sourceTree = "<group>"; };
 		17F756D427DB41E7003337D9 /* NetworkManager+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+InternalExtension.swift"; sourceTree = "<group>"; };
 		17F756D827DB4234003337D9 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		17F756DA27DB43EB003337D9 /* ServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrors.swift; sourceTree = "<group>"; };
@@ -300,6 +310,8 @@
 		175A848227DA83FC0062116C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				17D201A027DE5B9200A340AB /* Settings */,
+				17D2019927DE5A6300A340AB /* Profile */,
 				17F756ED27DB5AEF003337D9 /* Generic */,
 				175A848327DA840E0062116C /* Main */,
 			);
@@ -314,6 +326,7 @@
 				17F7571627DB77D2003337D9 /* MainViewController+InternalExtension.swift */,
 				17F7572B27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift */,
 				17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */,
+				17D201A527DE5C9800A340AB /* MainViewController+HeaderViewDelegate.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -392,6 +405,24 @@
 				17CD321A27DB3F92004AADA1 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		17D2019927DE5A6300A340AB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				17D2019C27DE5AE000A340AB /* ProfileViewController.swift */,
+				17D2019E27DE5B3300A340AB /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		17D201A027DE5B9200A340AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				17D201A127DE5BA200A340AB /* Settings.storyboard */,
+				17D201A327DE5BB200A340AB /* SettingsViewController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		17F756D627DB41EC003337D9 /* Extensions */ = {
@@ -748,6 +779,8 @@
 				17F756EB27DB5AA3003337D9 /* HeaderView.xib in Resources */,
 				17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */,
 				174D5F1C27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib in Resources */,
+				17D2019F27DE5B3300A340AB /* Profile.storyboard in Resources */,
+				17D201A227DE5BA200A340AB /* Settings.storyboard in Resources */,
 				174CBCCD27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib in Resources */,
 				174CBCB127DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib in Resources */,
 				174CBCE127DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib in Resources */,
@@ -916,6 +949,7 @@
 				174CBD0E27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift in Sources */,
 				17F7570F27DB7085003337D9 /* NSMutableDataExtension.swift in Sources */,
 				17F7571D27DB7C8C003337D9 /* NavigationStyle.swift in Sources */,
+				17D2019D27DE5AE000A340AB /* ProfileViewController.swift in Sources */,
 				17F7571727DB77D2003337D9 /* MainViewController+InternalExtension.swift in Sources */,
 				174CBCC027DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift in Sources */,
 				17F7570627DB7085003337D9 /* StringExtension.swift in Sources */,
@@ -923,6 +957,7 @@
 				17CD321B27DB3F92004AADA1 /* NetworkManager.swift in Sources */,
 				17F7571127DB7085003337D9 /* UIColorExtension.swift in Sources */,
 				17F7570727DB7085003337D9 /* UIFontExtension.swift in Sources */,
+				17D201A627DE5C9800A340AB /* MainViewController+HeaderViewDelegate.swift in Sources */,
 				174CBD0A27DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift in Sources */,
 				17F7572927DB7DB9003337D9 /* NavigationItem.swift in Sources */,
 				174CBCBC27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift in Sources */,
@@ -935,6 +970,7 @@
 				174CBCE927DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */,
 				174CBCEC27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift in Sources */,
+				17D201A427DE5BB200A340AB /* SettingsViewController.swift in Sources */,
 				17F756EC27DB5AA3003337D9 /* HeaderView.swift in Sources */,
 				1718F62A27DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift in Sources */,
 				174D5F1B27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift in Sources */,
