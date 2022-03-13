@@ -14,6 +14,8 @@ extension VolleyballSectionExpandedTableViewCell: UICollectionViewDataSource, UI
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let bettingMatchCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: BettingMatchCollectionViewCell.identifier, for: indexPath) as? BettingMatchCollectionViewCell {
+            bettingMatchCollectionViewCell.homeTeamLabel.text = bettingMatches[indexPath.row].homeTeam
+            bettingMatchCollectionViewCell.awayTeamLabel.text = bettingMatches[indexPath.row].awayTeam
             
             return bettingMatchCollectionViewCell
         }

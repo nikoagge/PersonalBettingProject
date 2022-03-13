@@ -17,5 +17,7 @@ class FootballSectionExpandedTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        configureBettingMatchesCollectionView()
     }
 }

@@ -37,8 +37,8 @@
                                     <constraint firstAttribute="height" constant="40" id="iOf-OG-sUL"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2fX-AZ-Gam">
-                                <rect key="frame" x="165.5" y="66" width="31" height="31"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2fX-AZ-Gam">
+                                <rect key="frame" x="165.5" y="65.5" width="31" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="31" id="NKH-W6-kZJ"/>
                                     <constraint firstAttribute="height" constant="31" id="mlw-L9-z3i"/>
@@ -92,4 +92,7 @@
             <point key="canvasLocation" x="205.79710144927537" y="126.89732142857142"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="star" catalog="system" width="128" height="116"/>
+    </resources>
 </document>

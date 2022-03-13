@@ -26,6 +26,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let footballSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: FootballSectionExpandedTableViewCell.identifier, for: indexPath) as? FootballSectionExpandedTableViewCell {
                     footballSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    footballSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return footballSectionExpandedTableViewCell
                 }
@@ -39,6 +40,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let basketballSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: BasketballSectionExpandedTableViewCell.identifier, for: indexPath) as? BasketballSectionExpandedTableViewCell {
                     basketballSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    basketballSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return basketballSectionExpandedTableViewCell
                 }
@@ -52,6 +54,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let tennisSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: TennisSectionExpandedTableViewCell.identifier, for: indexPath) as? TennisSectionExpandedTableViewCell {
                     tennisSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    tennisSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return tennisSectionExpandedTableViewCell
                 }
@@ -65,6 +68,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let tableTennisSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: TableTennisSectionExpandedTableViewCell.identifier, for: indexPath) as? TableTennisSectionExpandedTableViewCell {
                     tableTennisSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    tableTennisSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return tableTennisSectionExpandedTableViewCell
                 }
@@ -78,6 +82,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let volleyballSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: VolleyballSectionExpandedTableViewCell.identifier, for: indexPath) as? VolleyballSectionExpandedTableViewCell {
                     volleyballSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    volleyballSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return volleyballSectionExpandedTableViewCell
                 }
@@ -91,6 +96,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let esportsSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: EsportsSectionExpandedTableViewCell.identifier, for: indexPath) as? EsportsSectionExpandedTableViewCell {
                     esportsSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    esportsSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return esportsSectionExpandedTableViewCell
                 }
@@ -104,6 +110,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let iceHockeySectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: IceHockeySectionExpandedTableViewCell.identifier, for: indexPath) as? IceHockeySectionExpandedTableViewCell {
                     iceHockeySectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    iceHockeySectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return iceHockeySectionExpandedTableViewCell
                 }
@@ -117,6 +124,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let beachVolleyballSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: BeachVolleyballSectionExpandedTableViewCell.identifier, for: indexPath) as? BeachVolleyballSectionExpandedTableViewCell {
                     beachVolleyballSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    beachVolleyballSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return beachVolleyballSectionExpandedTableViewCell
                 }
@@ -130,6 +138,7 @@ extension MainViewController: UITableViewDataSource {
             } else {
                 if let badmintonSectionExpandedTableViewCell = tableView.dequeueReusableCell(withIdentifier: BadmintonSectionExpandedTableViewCell.identifier, for: indexPath) as? BadmintonSectionExpandedTableViewCell {
                     badmintonSectionExpandedTableViewCell.bettingMatches = bettingSports[indexPath.section].bettingMatches
+                    badmintonSectionExpandedTableViewCell.collectionView.reloadData()
                     
                     return badmintonSectionExpandedTableViewCell
                 }
