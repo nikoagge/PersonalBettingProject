@@ -8,6 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		0B8C2C4EEB656C597BE00018 /* Pods_PersonalBettingProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A08FA2505D4CC5D0669C37 /* Pods_PersonalBettingProjectTests.framework */; };
+		174CBCAD27DCCFA000A739B8 /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAC27DCCFA000A739B8 /* ImageNames.swift */; };
+		174CBCB027DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */; };
+		174CBCB127DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */; };
+		174CBCB427DD021500A739B8 /* BettingMatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCB227DD021500A739B8 /* BettingMatchCollectionViewCell.swift */; };
+		174CBCB527DD021500A739B8 /* BettingMatchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCB327DD021500A739B8 /* BettingMatchCollectionViewCell.xib */; };
+		174CBCB727DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCB627DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCB927DD0BFE00A739B8 /* FootballSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCB827DD0BFE00A739B8 /* FootballSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCBC27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCBA27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift */; };
+		174CBCBD27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCBB27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.xib */; };
+		174CBCC027DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCBE27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift */; };
+		174CBCC127DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCBF27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib */; };
+		174CBCC327DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCC227DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCC527DD17F400A739B8 /* BasketballSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCC427DD17F400A739B8 /* BasketballSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCC827DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCC627DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.swift */; };
+		174CBCC927DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCC727DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.xib */; };
+		174CBCCC27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCCA27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift */; };
+		174CBCCD27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCCB27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib */; };
+		174CBCCF27DD1DA700A739B8 /* TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCCE27DD1DA700A739B8 /* TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCD127DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCD027DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCD427DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCD227DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift */; };
+		174CBCD527DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCD327DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.xib */; };
+		174CBCD827DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCD627DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift */; };
+		174CBCD927DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCD727DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib */; };
+		174CBCDB27DD22CC00A739B8 /* TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCDA27DD22CC00A739B8 /* TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCDD27DD22EE00A739B8 /* TableTennisSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCDC27DD22EE00A739B8 /* TableTennisSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCE027DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCDE27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.swift */; };
+		174CBCE127DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCDF27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib */; };
+		174CBCE427DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCE227DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.swift */; };
+		174CBCE527DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCE327DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.xib */; };
+		174CBCE727DD251700A739B8 /* EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCE627DD251700A739B8 /* EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCE927DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCE827DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCEC27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCEA27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift */; };
+		174CBCED27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCEB27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.xib */; };
+		174CBCF027DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCEE27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.swift */; };
+		174CBCF127DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCEF27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib */; };
+		174CBCF327DD26EE00A739B8 /* VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCF227DD26EE00A739B8 /* VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBCF527DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCF427DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBCFE27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCFC27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.swift */; };
+		174CBCFF27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCFD27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.xib */; };
+		174CBD0227DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD0027DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.swift */; };
+		174CBD0327DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBD0127DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.xib */; };
+		174CBD0527DD2B1E00A739B8 /* IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD0427DD2B1E00A739B8 /* IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBD0727DD2B4A00A739B8 /* IceHockeySectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD0627DD2B4A00A739B8 /* IceHockeySectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBD0A27DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD0827DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift */; };
+		174CBD0B27DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBD0927DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.xib */; };
+		174CBD0E27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD0C27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift */; };
+		174CBD0F27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBD0D27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.xib */; };
+		174CBD1127DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD1027DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174CBD1327DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD1227DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift */; };
+		174CBD1627DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBD1427DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.swift */; };
+		174CBD1727DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBD1527DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib */; };
+		174D5F1B27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D5F1927DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift */; };
+		174D5F1C27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174D5F1A27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib */; };
+		174D5F1E27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D5F1D27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
+		174D5F2027DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D5F1F27DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift */; };
 		175D204627D9E64900BCB00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204527D9E64900BCB00D /* AppDelegate.swift */; };
 		175D204827D9E64900BCB00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204727D9E64900BCB00D /* SceneDelegate.swift */; };
 		175D204A27D9E64900BCB00D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204927D9E64900BCB00D /* MainViewController.swift */; };
@@ -58,6 +113,8 @@
 		17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */; };
 		17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */; };
 		17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */; };
+		17F7573E27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */; };
+		17F7574027DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */; };
 		603CB13B1F132BFF3FF4B78B /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4C78D6ACB0F216DF54F11 /* Pods_PersonalBettingProject_PersonalBettingProjectUITests.framework */; };
 		E43733838C825EF09D1EA600 /* Pods_PersonalBettingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D56E41ADEF14A8E700448F /* Pods_PersonalBettingProject.framework */; };
 /* End PBXBuildFile section */
@@ -80,6 +137,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174CBCAC27DCCFA000A739B8 /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
+		174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCB227DD021500A739B8 /* BettingMatchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingMatchCollectionViewCell.swift; sourceTree = "<group>"; };
+		174CBCB327DD021500A739B8 /* BettingMatchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BettingMatchCollectionViewCell.xib; sourceTree = "<group>"; };
+		174CBCB627DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCB827DD0BFE00A739B8 /* FootballSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FootballSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCBA27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCBB27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCBE27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCBF27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCC227DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCC427DD17F400A739B8 /* BasketballSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasketballSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCC627DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCC727DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TennisSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCCA27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCCB27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TennisSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCCE27DD1DA700A739B8 /* TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCD027DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TennisSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCD227DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTennisSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCD327DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableTennisSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCD627DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTennisSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCD727DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableTennisSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCDA27DD22CC00A739B8 /* TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCDC27DD22EE00A739B8 /* TableTennisSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableTennisSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCDE27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsportsSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCDF27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EsportsSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCE227DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsportsSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCE327DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EsportsSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCE627DD251700A739B8 /* EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCE827DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EsportsSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCEA27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCEB27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VolleyballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCEE27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCEF27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VolleyballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBCF227DD26EE00A739B8 /* VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBCF427DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VolleyballSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBCFC27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceHockeySectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBCFD27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IceHockeySectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBD0027DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceHockeySectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBD0127DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IceHockeySectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBD0427DD2B1E00A739B8 /* IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBD0627DD2B4A00A739B8 /* IceHockeySectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IceHockeySectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBD0827DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBD0927DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadmintonSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBD0C27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBD0D27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadmintonSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174CBD1027DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174CBD1227DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BadmintonSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		174CBD1427DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachVolleyballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
+		174CBD1527DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachVolleyballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		174D5F1927DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachVolleyballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		174D5F1A27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachVolleyballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
+		174D5F1D27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		174D5F1F27DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
 		175D204227D9E64900BCB00D /* PersonalBettingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalBettingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175D204527D9E64900BCB00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		175D204727D9E64900BCB00D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +246,8 @@
 		17F7572D27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionShrinkedTableViewCell.swift; sourceTree = "<group>"; };
 		17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionShrinkedTableViewCell.xib; sourceTree = "<group>"; };
+		17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellsHeaderView.swift; sourceTree = "<group>"; };
+		17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCellsHeaderView.xib; sourceTree = "<group>"; };
 		17F91F645B1FB2EC220F6477 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4CDD5F8BA9A45F69C863F2C1 /* Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProject-PersonalBettingProjectUITests/Pods-PersonalBettingProject-PersonalBettingProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E6F9F05DF3657EE060DCF4C /* Pods-PersonalBettingProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalBettingProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PersonalBettingProjectTests/Pods-PersonalBettingProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -317,6 +431,7 @@
 				17F756D827DB4234003337D9 /* HTTPMethod.swift */,
 				17F756DA27DB43EB003337D9 /* ServiceErrors.swift */,
 				17F756DC27DB44F0003337D9 /* NetworkManagerError.swift */,
+				174CBCAC27DCCFA000A739B8 /* ImageNames.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -344,6 +459,8 @@
 			children = (
 				17F756EA27DB5AA3003337D9 /* HeaderView.swift */,
 				17F756E927DB5AA3003337D9 /* HeaderView.xib */,
+				17F7573D27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift */,
+				17F7573F27DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib */,
 			);
 			path = SharedViews;
 			sourceTree = "<group>";
@@ -359,10 +476,136 @@
 		17F7572A27DB89D1003337D9 /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
-				17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */,
-				17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */,
+				17F7573B27DBABA7003337D9 /* Beach Volleyball */,
+				17F7573A27DBAB4A003337D9 /* Badminton */,
+				17F7573927DBAB3D003337D9 /* Ice Hockey */,
+				17F7573827DBAB36003337D9 /* Volleyball */,
+				17F7573727DBAB2F003337D9 /* Esports */,
+				17F7573627DBAB27003337D9 /* Table Tennis */,
+				17F7573527DBAB1F003337D9 /* Tennis */,
+				17F7573427DBAB16003337D9 /* Basketball */,
+				17F7573327DBAAF8003337D9 /* Football */,
+				174CBCB227DD021500A739B8 /* BettingMatchCollectionViewCell.swift */,
+				174CBCB327DD021500A739B8 /* BettingMatchCollectionViewCell.xib */,
 			);
 			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		17F7573327DBAAF8003337D9 /* Football */ = {
+			isa = PBXGroup;
+			children = (
+				17F7572F27DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift */,
+				17F7573027DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib */,
+				174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */,
+				174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */,
+				174CBCB627DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCB827DD0BFE00A739B8 /* FootballSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Football;
+			sourceTree = "<group>";
+		};
+		17F7573427DBAB16003337D9 /* Basketball */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCBA27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift */,
+				174CBCBB27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.xib */,
+				174CBCBE27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift */,
+				174CBCBF27DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib */,
+				174CBCC227DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCC427DD17F400A739B8 /* BasketballSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Basketball;
+			sourceTree = "<group>";
+		};
+		17F7573527DBAB1F003337D9 /* Tennis */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCC627DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.swift */,
+				174CBCC727DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.xib */,
+				174CBCCA27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift */,
+				174CBCCB27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib */,
+				174CBCCE27DD1DA700A739B8 /* TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCD027DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Tennis;
+			sourceTree = "<group>";
+		};
+		17F7573627DBAB27003337D9 /* Table Tennis */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCD227DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift */,
+				174CBCD327DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.xib */,
+				174CBCD627DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift */,
+				174CBCD727DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib */,
+				174CBCDA27DD22CC00A739B8 /* TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCDC27DD22EE00A739B8 /* TableTennisSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = "Table Tennis";
+			sourceTree = "<group>";
+		};
+		17F7573727DBAB2F003337D9 /* Esports */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCDE27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.swift */,
+				174CBCDF27DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib */,
+				174CBCE227DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.swift */,
+				174CBCE327DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.xib */,
+				174CBCE627DD251700A739B8 /* EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCE827DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Esports;
+			sourceTree = "<group>";
+		};
+		17F7573827DBAB36003337D9 /* Volleyball */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCEA27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift */,
+				174CBCEB27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.xib */,
+				174CBCEE27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.swift */,
+				174CBCEF27DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib */,
+				174CBCF227DD26EE00A739B8 /* VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBCF427DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Volleyball;
+			sourceTree = "<group>";
+		};
+		17F7573927DBAB3D003337D9 /* Ice Hockey */ = {
+			isa = PBXGroup;
+			children = (
+				174CBCFC27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.swift */,
+				174CBCFD27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.xib */,
+				174CBD0027DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.swift */,
+				174CBD0127DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.xib */,
+				174CBD0427DD2B1E00A739B8 /* IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBD0627DD2B4A00A739B8 /* IceHockeySectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = "Ice Hockey";
+			sourceTree = "<group>";
+		};
+		17F7573A27DBAB4A003337D9 /* Badminton */ = {
+			isa = PBXGroup;
+			children = (
+				174CBD0827DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift */,
+				174CBD0927DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.xib */,
+				174CBD0C27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift */,
+				174CBD0D27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.xib */,
+				174CBD1027DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174CBD1227DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = Badminton;
+			sourceTree = "<group>";
+		};
+		17F7573B27DBABA7003337D9 /* Beach Volleyball */ = {
+			isa = PBXGroup;
+			children = (
+				174CBD1427DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.swift */,
+				174CBD1527DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib */,
+				174D5F1927DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift */,
+				174D5F1A27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib */,
+				174D5F1D27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */,
+				174D5F1F27DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift */,
+			);
+			path = "Beach Volleyball";
 			sourceTree = "<group>";
 		};
 		2EB45ABFD2C40BB2E9496D41 /* Pods */ = {
@@ -489,9 +732,28 @@
 			files = (
 				175D205227D9E64A00BCB00D /* LaunchScreen.storyboard in Resources */,
 				175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */,
+				174CBCD927DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib in Resources */,
+				17F7574027DBADF3003337D9 /* CustomTableViewCellsHeaderView.xib in Resources */,
+				174CBD1727DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib in Resources */,
+				174CBCF127DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.xib in Resources */,
+				174CBCC127DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.xib in Resources */,
 				175D204D27D9E64900BCB00D /* Main.storyboard in Resources */,
+				174CBCB527DD021500A739B8 /* BettingMatchCollectionViewCell.xib in Resources */,
+				174CBCD527DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.xib in Resources */,
+				174CBCED27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.xib in Resources */,
+				174CBCC927DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.xib in Resources */,
+				174CBD0B27DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.xib in Resources */,
+				174CBCE527DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.xib in Resources */,
+				174CBD0F27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.xib in Resources */,
+				174CBCFF27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.xib in Resources */,
 				17F756EB27DB5AA3003337D9 /* HeaderView.xib in Resources */,
 				17F7573227DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.xib in Resources */,
+				174D5F1C27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.xib in Resources */,
+				174CBCCD27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.xib in Resources */,
+				174CBCB127DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib in Resources */,
+				174CBCE127DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.xib in Resources */,
+				174CBCBD27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.xib in Resources */,
+				174CBD0327DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,46 +882,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F7570B27DB7085003337D9 /* NSLocaleExtension.swift in Sources */,
+				174D5F1E27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				17F7570A27DB7085003337D9 /* NumberFormatterExtension.swift in Sources */,
+				174CBCC327DD16F200A739B8 /* BasketballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				17F7573E27DBAD53003337D9 /* CustomTableViewCellsHeaderView.swift in Sources */,
+				174D5F2027DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
+				174CBCD127DD1DD600A739B8 /* TennisSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7571327DB7085003337D9 /* UIViewControllerExtension.swift in Sources */,
 				17F7571027DB7085003337D9 /* DateFormatterExtension.swift in Sources */,
+				174CBCE727DD251700A739B8 /* EsportsSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				175D204A27D9E64900BCB00D /* MainViewController.swift in Sources */,
 				17F756DD27DB44F0003337D9 /* NetworkManagerError.swift in Sources */,
+				174CBCDD27DD22EE00A739B8 /* TableTennisSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7571527DB7085003337D9 /* UIViewExtension.swift in Sources */,
 				175D204627D9E64900BCB00D /* AppDelegate.swift in Sources */,
 				17F7571927DB78A2003337D9 /* DeviceModel.swift in Sources */,
+				174CBCF027DD261C00A739B8 /* VolleyballSectionExpandedTableViewCell.swift in Sources */,
 				17F756D927DB4234003337D9 /* HTTPMethod.swift in Sources */,
 				17F7572727DB7CA9003337D9 /* StoryboardType.swift in Sources */,
 				17F7571B27DB78C2003337D9 /* Coordinator.swift in Sources */,
+				174CBCDB27DD22CC00A739B8 /* TableTennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				174CBD1627DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.swift in Sources */,
 				17F7572427DB7CA9003337D9 /* ScreenType.swift in Sources */,
+				174CBCB427DD021500A739B8 /* BettingMatchCollectionViewCell.swift in Sources */,
+				174CBCE427DD242A00A739B8 /* EsportsSectionExpandedTableViewCell.swift in Sources */,
 				17F7570427DB7085003337D9 /* PromiseExtension.swift in Sources */,
+				174CBCC827DD197C00A739B8 /* TennisSectionShrinkedTableViewCell.swift in Sources */,
+				174CBCB927DD0BFE00A739B8 /* FootballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F756E327DB49BE003337D9 /* BettingMatch.swift in Sources */,
+				174CBCCF27DD1DA700A739B8 /* TennisSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				17F756EF27DB5B29003337D9 /* GenericViewController.swift in Sources */,
+				174CBCC527DD17F400A739B8 /* BasketballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F756F127DB6F0C003337D9 /* NibNames.swift in Sources */,
+				174CBCE027DD232600A739B8 /* EsportsSectionShrinkedTableViewCell.swift in Sources */,
+				174CBD0E27DD2C2700A739B8 /* BadmintonSectionExpandedTableViewCell.swift in Sources */,
 				17F7570F27DB7085003337D9 /* NSMutableDataExtension.swift in Sources */,
 				17F7571D27DB7C8C003337D9 /* NavigationStyle.swift in Sources */,
 				17F7571727DB77D2003337D9 /* MainViewController+InternalExtension.swift in Sources */,
+				174CBCC027DD11F900A739B8 /* BasketballSectionExpandedTableViewCell.swift in Sources */,
 				17F7570627DB7085003337D9 /* StringExtension.swift in Sources */,
+				174CBCB027DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift in Sources */,
 				17CD321B27DB3F92004AADA1 /* NetworkManager.swift in Sources */,
 				17F7571127DB7085003337D9 /* UIColorExtension.swift in Sources */,
 				17F7570727DB7085003337D9 /* UIFontExtension.swift in Sources */,
+				174CBD0A27DD2BAE00A739B8 /* BadmintonSectionShrinkedTableViewCell.swift in Sources */,
 				17F7572927DB7DB9003337D9 /* NavigationItem.swift in Sources */,
+				174CBCBC27DD0FF700A739B8 /* BasketballSectionShrinkedTableViewCell.swift in Sources */,
 				17F7570D27DB7085003337D9 /* EncodableExtension.swift in Sources */,
 				17F756DB27DB43EB003337D9 /* ServiceErrors.swift in Sources */,
+				174CBD1327DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
+				174CBCB727DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				174CBCF527DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
+				174CBCE927DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */,
+				174CBCEC27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift in Sources */,
 				17F756EC27DB5AA3003337D9 /* HeaderView.swift in Sources */,
+				174D5F1B27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift in Sources */,
+				174CBCCC27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift in Sources */,
+				174CBCD827DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift in Sources */,
+				174CBD1127DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				175D204827D9E64900BCB00D /* SceneDelegate.swift in Sources */,
 				17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */,
 				17F7570827DB7085003337D9 /* StoryboardType+Extension.swift in Sources */,
+				174CBCD427DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift in Sources */,
 				17CD321927DB3E5B004AADA1 /* Constants.swift in Sources */,
+				174CBCF327DD26EE00A739B8 /* VolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				17F7571227DB7085003337D9 /* Constants+FormattersExtension.swift in Sources */,
 				17F7570527DB7085003337D9 /* UIDeviceExtension.swift in Sources */,
 				17F756D527DB41E7003337D9 /* NetworkManager+InternalExtension.swift in Sources */,
 				17F7571427DB7085003337D9 /* ArrayExtension.swift in Sources */,
+				174CBD0527DD2B1E00A739B8 /* IceHockeySectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				174CBCAD27DCCFA000A739B8 /* ImageNames.swift in Sources */,
 				17F7572327DB7CA9003337D9 /* PageType.swift in Sources */,
 				17F7572C27DB8A50003337D9 /* MainViewController+UITableViewDataSource.swift in Sources */,
+				174CBD0727DD2B4A00A739B8 /* IceHockeySectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				17F7570927DB7085003337D9 /* Coordinator+Extension.swift in Sources */,
 				17F7570C27DB7085003337D9 /* DataExtension.swift in Sources */,
+				174CBD0227DD2A2200A739B8 /* IceHockeySectionExpandedTableViewCell.swift in Sources */,
+				174CBCFE27DD288900A739B8 /* IceHockeySectionShrinkedTableViewCell.swift in Sources */,
 				17F756E027DB475C003337D9 /* BettingSport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
