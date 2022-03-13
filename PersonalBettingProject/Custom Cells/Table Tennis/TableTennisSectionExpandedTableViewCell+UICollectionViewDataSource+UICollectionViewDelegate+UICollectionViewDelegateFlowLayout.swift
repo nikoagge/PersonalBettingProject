@@ -16,6 +16,7 @@ extension TableTennisSectionExpandedTableViewCell: UICollectionViewDataSource, U
         if let bettingMatchCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: BettingMatchCollectionViewCell.identifier, for: indexPath) as? BettingMatchCollectionViewCell {
             bettingMatchCollectionViewCell.homeTeamLabel.text = bettingMatches[indexPath.row].homeTeam
             bettingMatchCollectionViewCell.awayTeamLabel.text = bettingMatches[indexPath.row].awayTeam
+            bettingMatchCollectionViewCell.timeAndDateLabel.text = getTime(from: bettingMatches[indexPath.row].bettingMatchDate)
             
             return bettingMatchCollectionViewCell
         }

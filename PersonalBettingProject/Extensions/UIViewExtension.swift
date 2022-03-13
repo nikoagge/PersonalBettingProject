@@ -34,3 +34,27 @@ extension UIView {
         view.clipsToBounds = true
     }
 }
+
+extension UIView {
+    func getTime(from matchTime: Int) -> String {
+        let epochTime = TimeInterval((matchTime)) / 1000
+        let date = Date(timeIntervalSinceNow: epochTime)
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        let hourStringValue = addExtraZeroForOneDigitIntValue(intValue: hour)
+        let minutes = calendar.component(.minute, from: date)
+        let minutesStringValue = addExtraZeroForOneDigitIntValue(intValue: minutes)
+        let seconds = calendar.component(.second, from: date)
+        let secondsStringValue = addExtraZeroForOneDigitIntValue(intValue: seconds)
+        
+        return "\(hourStringValue):\(minutesStringValue):\(secondsStringValue)"
+    }
+    
+    func addExtraZeroForOneDigitIntValue(intValue: Int) -> String {
+        if intValue < 10 {
+            return "0\(intValue)"
+        } else {
+            return "\(intValue)"
+        }
+    }
+}

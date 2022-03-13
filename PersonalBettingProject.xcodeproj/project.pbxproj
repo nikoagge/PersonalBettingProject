@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B8C2C4EEB656C597BE00018 /* Pods_PersonalBettingProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A08FA2505D4CC5D0669C37 /* Pods_PersonalBettingProjectTests.framework */; };
 		1718F62A27DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718F62927DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift */; };
+		1718F62C27DE3DB90097C38C /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718F62B27DE3DB90097C38C /* TimeIntervalExtension.swift */; };
 		174CBCAD27DCCFA000A739B8 /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAC27DCCFA000A739B8 /* ImageNames.swift */; };
 		174CBCB027DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */; };
 		174CBCB127DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */; };
@@ -137,6 +138,7 @@
 
 /* Begin PBXFileReference section */
 		1718F62927DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BettingMatchCollectionViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
+		1718F62B27DE3DB90097C38C /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
 		174CBCAC27DCCFA000A739B8 /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
 		174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
 		174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				17F7570127DB7085003337D9 /* UIViewControllerExtension.swift */,
 				17F7570327DB7085003337D9 /* UIViewExtension.swift */,
 				17F756D427DB41E7003337D9 /* NetworkManager+InternalExtension.swift */,
+				1718F62B27DE3DB90097C38C /* TimeIntervalExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 				17F7570D27DB7085003337D9 /* EncodableExtension.swift in Sources */,
 				17F756DB27DB43EB003337D9 /* ServiceErrors.swift in Sources */,
 				174CBD1327DD2D3C00A739B8 /* BadmintonSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
+				1718F62C27DE3DB90097C38C /* TimeIntervalExtension.swift in Sources */,
 				174CBCB727DD09E100A739B8 /* FootballExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				174CBCF527DD271600A739B8 /* VolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
 				174CBCE927DD254A00A739B8 /* EsportsSectionExpandedTableViewCell+InternalExtension.swift in Sources */,
