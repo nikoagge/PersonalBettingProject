@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,7 +66,6 @@
 		174D5F1E27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D5F1D27DDC77C001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift */; };
 		174D5F2027DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D5F1F27DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift */; };
 		175D204627D9E64900BCB00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204527D9E64900BCB00D /* AppDelegate.swift */; };
-		175D204827D9E64900BCB00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204727D9E64900BCB00D /* SceneDelegate.swift */; };
 		175D204A27D9E64900BCB00D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204927D9E64900BCB00D /* MainViewController.swift */; };
 		175D204D27D9E64900BCB00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175D204B27D9E64900BCB00D /* Main.storyboard */; };
 		175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175D204E27D9E64A00BCB00D /* Assets.xcassets */; };
@@ -201,7 +200,6 @@
 		174D5F1F27DDC79B001A2C1B /* BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeachVolleyballSectionExpandedTableViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
 		175D204227D9E64900BCB00D /* PersonalBettingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalBettingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175D204527D9E64900BCB00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		175D204727D9E64900BCB00D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		175D204927D9E64900BCB00D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		175D204C27D9E64900BCB00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		175D204E27D9E64A00BCB00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -391,7 +389,6 @@
 			children = (
 				175D205027D9E64A00BCB00D /* LaunchScreen.storyboard */,
 				175D204E27D9E64A00BCB00D /* Assets.xcassets */,
-				175D204727D9E64900BCB00D /* SceneDelegate.swift */,
 				175D204527D9E64900BCB00D /* AppDelegate.swift */,
 				17CD321827DB3E5B004AADA1 /* Constants.swift */,
 			);
@@ -737,7 +734,7 @@
 				};
 			};
 			buildConfigurationList = 175D203D27D9E64900BCB00D /* Build configuration list for PBXProject "PersonalBettingProject" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -977,7 +974,6 @@
 				174CBCCC27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift in Sources */,
 				174CBCD827DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift in Sources */,
 				174CBD1127DD2D1800A739B8 /* BadmintonSectionExpandedTableViewCell+UICollectionViewDataSource+UICollectionViewDelegate+UICollectionViewDelegateFlowLayout.swift in Sources */,
-				175D204827D9E64900BCB00D /* SceneDelegate.swift in Sources */,
 				17F7573127DB93FD003337D9 /* FootballSectionShrinkedTableViewCell.swift in Sources */,
 				17F7570827DB7085003337D9 /* StoryboardType+Extension.swift in Sources */,
 				174CBCD427DD207A00A739B8 /* TableTennisSectionShrinkedTableViewCell.swift in Sources */,

@@ -27,23 +27,43 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tfu-20-Tci">
+                                <rect key="frame" x="31" y="75" width="130" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="L0q-XV-ATj"/>
+                                    <constraint firstAttribute="height" constant="85" id="jGf-cP-9Bf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5kC-Mr-3EL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="GEH-7v-6sI" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3tq-qV-HuE"/>
+                            <constraint firstItem="Tfu-20-Tci" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="31" id="9Mp-sy-nvl"/>
+                            <constraint firstItem="Tfu-20-Tci" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="31" id="KR1-GB-nhl"/>
                             <constraint firstItem="GEH-7v-6sI" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="aNB-9r-2pI"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="fCm-6p-Uzh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="98"/>
+            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

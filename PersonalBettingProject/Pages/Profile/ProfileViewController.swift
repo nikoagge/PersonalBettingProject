@@ -11,4 +11,8 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func backButtonTouchUpInside(_ sender: UIButton) {
+        backAction()
+    }
 }

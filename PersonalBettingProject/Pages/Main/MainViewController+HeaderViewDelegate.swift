@@ -9,12 +9,10 @@ import UIKit
 
 extension MainViewController: HeaderViewDelegate {
     func profileButtonTouchUpInside() {
-        let profileViewController = ProfileViewController()
-        self.present(profileViewController, animated: true)
+        navigate(.init(pageType: .profileViewController, navigationStyle: .push(animated: true)))
     }
     
     func settingsButtonTouchUpInside() {
-        let settingsViewController = SettingsViewController()
-        self.present(settingsViewController, animated: true)
+        navigate(.init(pageType: .settingsViewController, navigationStyle: .push(animated: true)))
     }
 }

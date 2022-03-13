@@ -27,12 +27,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3R-TH-VlP">
+                                <rect key="frame" x="31" y="75" width="130" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="f2b-Vo-7ut"/>
+                                    <constraint firstAttribute="height" constant="85" id="fR3-ez-hpv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LNt-83-wMu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
+                            <constraint firstItem="O3R-TH-VlP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="31" id="K50-Ce-Fa8"/>
                             <constraint firstItem="urx-aI-CXG" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="cHv-YK-zql"/>
                             <constraint firstItem="urx-aI-CXG" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="n6q-mt-aA3"/>
+                            <constraint firstItem="O3R-TH-VlP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="31" id="yRe-Uz-bwp"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,8 +58,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
