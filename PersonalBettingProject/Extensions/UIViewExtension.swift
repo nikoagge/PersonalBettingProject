@@ -26,4 +26,11 @@ extension UIView {
         self.layer.cornerRadius = cornerRadius
         self.clipsToBounds = true
     }
+    
+    func addBorderAroundView(view: UIView, cornerRadius: CGFloat, borderWidth: CGFloat, color: UIColor) {
+        view.layer.cornerRadius = cornerRadius
+        view.layer.borderWidth = borderWidth
+        view.layer.borderColor = color.cgColor
+        view.clipsToBounds = true
+    }
 }

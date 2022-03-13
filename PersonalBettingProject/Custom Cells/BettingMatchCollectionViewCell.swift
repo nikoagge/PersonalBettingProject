@@ -19,5 +19,7 @@ class BettingMatchCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        setupUI()
     }
 }

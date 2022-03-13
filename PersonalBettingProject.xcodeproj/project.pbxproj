@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B8C2C4EEB656C597BE00018 /* Pods_PersonalBettingProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A08FA2505D4CC5D0669C37 /* Pods_PersonalBettingProjectTests.framework */; };
+		1718F62A27DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718F62927DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift */; };
 		174CBCAD27DCCFA000A739B8 /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAC27DCCFA000A739B8 /* ImageNames.swift */; };
 		174CBCB027DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */; };
 		174CBCB127DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */; };
@@ -135,6 +136,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1718F62927DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BettingMatchCollectionViewCell+InternalExtension.swift"; sourceTree = "<group>"; };
 		174CBCAC27DCCFA000A739B8 /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
 		174CBCAE27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballSectionExpandedTableViewCell.swift; sourceTree = "<group>"; };
 		174CBCAF27DCE97D00A739B8 /* FootballSectionExpandedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FootballSectionExpandedTableViewCell.xib; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				17F7573327DBAAF8003337D9 /* Football */,
 				174CBCB227DD021500A739B8 /* BettingMatchCollectionViewCell.swift */,
 				174CBCB327DD021500A739B8 /* BettingMatchCollectionViewCell.xib */,
+				1718F62927DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -929,6 +932,7 @@
 				17F7572E27DB8A72003337D9 /* MainViewController+UITableViewDelegate.swift in Sources */,
 				174CBCEC27DD25A800A739B8 /* VolleyballSectionShrinkedTableViewCell.swift in Sources */,
 				17F756EC27DB5AA3003337D9 /* HeaderView.swift in Sources */,
+				1718F62A27DE1E160097C38C /* BettingMatchCollectionViewCell+InternalExtension.swift in Sources */,
 				174D5F1B27DDC6E5001A2C1B /* BeachVolleyballSectionExpandedTableViewCell.swift in Sources */,
 				174CBCCC27DD1C5E00A739B8 /* TennisSectionExpandedTableViewCell.swift in Sources */,
 				174CBCD827DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.swift in Sources */,
