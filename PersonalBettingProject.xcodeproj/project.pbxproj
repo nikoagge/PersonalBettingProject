@@ -69,7 +69,6 @@
 		175D204A27D9E64900BCB00D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D204927D9E64900BCB00D /* MainViewController.swift */; };
 		175D204D27D9E64900BCB00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175D204B27D9E64900BCB00D /* Main.storyboard */; };
 		175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175D204E27D9E64A00BCB00D /* Assets.xcassets */; };
-		175D205227D9E64A00BCB00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175D205027D9E64A00BCB00D /* LaunchScreen.storyboard */; };
 		175D205D27D9E64B00BCB00D /* PersonalBettingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D205C27D9E64B00BCB00D /* PersonalBettingProjectTests.swift */; };
 		175D206727D9E64B00BCB00D /* PersonalBettingProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D206627D9E64B00BCB00D /* PersonalBettingProjectUITests.swift */; };
 		175D206927D9E64B00BCB00D /* PersonalBettingProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D206827D9E64B00BCB00D /* PersonalBettingProjectUITestsLaunchTests.swift */; };
@@ -203,8 +202,6 @@
 		175D204927D9E64900BCB00D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		175D204C27D9E64900BCB00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		175D204E27D9E64A00BCB00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		175D205127D9E64A00BCB00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		175D205327D9E64A00BCB00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		175D205827D9E64B00BCB00D /* PersonalBettingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalBettingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		175D205C27D9E64B00BCB00D /* PersonalBettingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBettingProjectTests.swift; sourceTree = "<group>"; };
 		175D206227D9E64B00BCB00D /* PersonalBettingProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalBettingProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -362,7 +359,6 @@
 				17CD321727DB3E45004AADA1 /* Managers */,
 				175A848227DA83FC0062116C /* Pages */,
 				175D207527DA104C00BCB00D /* Resources */,
-				175D205327D9E64A00BCB00D /* Info.plist */,
 			);
 			path = PersonalBettingProject;
 			sourceTree = "<group>";
@@ -387,7 +383,6 @@
 		175D207527DA104C00BCB00D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				175D205027D9E64A00BCB00D /* LaunchScreen.storyboard */,
 				175D204E27D9E64A00BCB00D /* Assets.xcassets */,
 				175D204527D9E64900BCB00D /* AppDelegate.swift */,
 				17CD321827DB3E5B004AADA1 /* Constants.swift */,
@@ -758,7 +753,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175D205227D9E64A00BCB00D /* LaunchScreen.storyboard in Resources */,
 				175D204F27D9E64A00BCB00D /* Assets.xcassets in Resources */,
 				174CBCD927DD212A00A739B8 /* TableTennisSectionExpandedTableViewCell.xib in Resources */,
 				174CBD1727DD331D00A739B8 /* BeachVolleyballSectionShrinkedTableViewCell.xib in Resources */,
@@ -1037,14 +1031,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		175D205027D9E64A00BCB00D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				175D205127D9E64A00BCB00D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1176,7 +1162,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalBettingProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1205,7 +1191,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalBettingProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
