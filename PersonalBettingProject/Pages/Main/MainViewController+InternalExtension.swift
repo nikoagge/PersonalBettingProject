@@ -9,14 +9,20 @@ import UIKit
 
 internal extension MainViewController {
     func getData() {
-        _ = NetworkManager.shared.getBettingSports().done { bettingSports in
-            self.bettingSports = bettingSports
-            for _ in 0..<bettingSports.count {
-                self.bettingSportSectionIsExpanded.append(false)
-                self.bettingSportsTableView.reloadData()
+        NetworkManager.shared.fetchSportEvents { [weak self] result in
+            guard let self = self else { return }
+            switch result {
+            case .success(let sportsMatches):
+                self.bettingSports = sportsMatches
+                DispatchQueue.main.async {
+                    self.bettingSportsTableView.reloadData()
+                }
+                for _ in 0..<self.bettingSports.count {
+                    self.bettingSportSectionIsExpanded.append(false)
+                }
+            case .failure(let failure):
+                debugPrint(failure)
             }
-        }.catch { error in
-            debugPrint(error.localizedDescription)
         }
     }
     
