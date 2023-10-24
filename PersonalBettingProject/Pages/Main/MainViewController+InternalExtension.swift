@@ -14,11 +14,11 @@ internal extension MainViewController {
             switch result {
             case .success(let sportsMatches):
                 self.bettingSports = sportsMatches
-                DispatchQueue.main.async {
-                    self.bettingSportsTableView.reloadData()
-                }
                 for _ in 0..<self.bettingSports.count {
                     self.bettingSportSectionIsExpanded.append(false)
+                }
+                DispatchQueue.main.async {
+                    self.bettingSportsTableView.reloadData()
                 }
             case .failure(let failure):
                 debugPrint(failure)
